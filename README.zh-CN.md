@@ -65,6 +65,10 @@ MAIN_TEXT = NIGHT DROP
 ASPECT_RATIO = 16:9
 ```
 
+## 复制提示词入口
+
+想先快速试效果？可以打开自动生成的 [Copy Prompt Library](docs/copy-prompts/README.md)，每个风格都有一段可直接复制的简版提示词。完整可复用风格系统仍然保留在各自的 `style.json` 里。
+
 ## 精选风格
 
 先看这 6 个，就能快速理解这个风格库的视觉跨度。每个风格都保持轻量：一个 JSON 加两张预览图。
@@ -75,19 +79,19 @@ ASPECT_RATIO = 16:9
 <a href="styles/bold-block-mascot-poster-style"><img src="styles/bold-block-mascot-poster-style/preview-16x9.jpg" alt="Bold Block Mascot Poster Style preview"></a>
 <h3>Bold Block Mascot Poster Style</h3>
 <p>一种密集的扁平吉祥物海报风格：巨大黑色块状标题字、白色贴纸感角色、粗黑卡通描边、斜切柠檬黄或青绿色面板、紧凑作品集卡片标签、少量红色点缀，以及干净米白印刷表面。</p>
-<p><a href="styles/bold-block-mascot-poster-style/style.json"><strong>打开 style.json</strong></a> · <a href="styles/bold-block-mascot-poster-style">目录</a></p>
+<p><a href="styles/bold-block-mascot-poster-style/style.json"><strong>打开 style.json</strong></a> · <a href="docs/copy-prompts/bold-block-mascot-poster-style.md">复制提示词</a> · <a href="styles/bold-block-mascot-poster-style">目录</a></p>
 </td>
 <td width="33%" valign="top">
 <a href="styles/blue-hud-macro-product-poster"><img src="styles/blue-hud-macro-product-poster/preview-16x9.jpg" alt="Blue HUD Macro Creator Tech Poster preview"></a>
 <h3>Blue HUD Macro Creator Tech Poster</h3>
 <p>一种蓝色 HUD 创作者科技发布海报风格：微距 3D 硬件主视觉、超大的罗纹手套、电蓝色玻璃界面面板、巨大压缩白色标题字、密集功能卡片层级，以及一个暖金色性能徽章。</p>
-<p><a href="styles/blue-hud-macro-product-poster/style.json"><strong>打开 style.json</strong></a> · <a href="styles/blue-hud-macro-product-poster">目录</a></p>
+<p><a href="styles/blue-hud-macro-product-poster/style.json"><strong>打开 style.json</strong></a> · <a href="docs/copy-prompts/blue-hud-macro-product-poster.md">复制提示词</a> · <a href="styles/blue-hud-macro-product-poster">目录</a></p>
 </td>
 <td width="33%" valign="top">
 <a href="styles/warm-fisheye-product-impact-ad-style"><img src="styles/warm-fisheye-product-impact-ad-style/preview-16x9.jpg" alt="Warm Fisheye Product Impact Ad preview"></a>
 <h3>Warm Fisheye Product Impact Ad</h3>
 <p>一种密集的中文社交电商产品广告风格：微距鱼眼产品隧道、贴近镜头的主产品、巨大斜切白色中文标题、暖焦糖棕灯光、蓝色标注条、底部产品信息条和高光泽质感。</p>
-<p><a href="styles/warm-fisheye-product-impact-ad-style/style.json"><strong>打开 style.json</strong></a> · <a href="styles/warm-fisheye-product-impact-ad-style">目录</a></p>
+<p><a href="styles/warm-fisheye-product-impact-ad-style/style.json"><strong>打开 style.json</strong></a> · <a href="docs/copy-prompts/warm-fisheye-product-impact-ad-style.md">复制提示词</a> · <a href="styles/warm-fisheye-product-impact-ad-style">目录</a></p>
 </td>
 </tr>
 <tr>
@@ -95,19 +99,19 @@ ASPECT_RATIO = 16:9
 <a href="styles/olive-scribble-sports-poster-style"><img src="styles/olive-scribble-sports-poster-style/preview-16x9.jpg" alt="Olive Scribble Sports Poster preview"></a>
 <h3>Olive Scribble Sports Poster</h3>
 <p>一种动感手工体育海报风格：米白纸底、不规则橄榄绿块、超大斜向动作人物、粗黑墨线、红色马克笔运动弧、黄绿色干刷笔触和丝网印刷质感。</p>
-<p><a href="styles/olive-scribble-sports-poster-style/style.json"><strong>打开 style.json</strong></a> · <a href="styles/olive-scribble-sports-poster-style">目录</a></p>
+<p><a href="styles/olive-scribble-sports-poster-style/style.json"><strong>打开 style.json</strong></a> · <a href="docs/copy-prompts/olive-scribble-sports-poster-style.md">复制提示词</a> · <a href="styles/olive-scribble-sports-poster-style">目录</a></p>
 </td>
 <td width="33%" valign="top">
 <a href="styles/bold-anime-reaction-thumbnail-style"><img src="styles/bold-anime-reaction-thumbnail-style/preview-16x9.jpg" alt="Bold Anime Reaction Thumbnail preview"></a>
 <h3>Bold Anime Reaction Thumbnail</h3>
 <p>一种高冲击动漫网页缩略图风格：超大反应角色、巨大的黄黑标题字、分屏构图、青蓝发光揭示区和干净赛璐璐插画。</p>
-<p><a href="styles/bold-anime-reaction-thumbnail-style/style.json"><strong>打开 style.json</strong></a> · <a href="styles/bold-anime-reaction-thumbnail-style">目录</a></p>
+<p><a href="styles/bold-anime-reaction-thumbnail-style/style.json"><strong>打开 style.json</strong></a> · <a href="docs/copy-prompts/bold-anime-reaction-thumbnail-style.md">复制提示词</a> · <a href="styles/bold-anime-reaction-thumbnail-style">目录</a></p>
 </td>
 <td width="33%" valign="top">
 <a href="styles/turquoise-red-techno-manga-poster-style"><img src="styles/turquoise-red-techno-manga-poster-style/preview-16x9.jpg" alt="Turquoise Red Techno Manga Poster preview"></a>
 <h3>Turquoise Red Techno Manga Poster</h3>
 <p>一种复古科技漫画海报风格：奶油色纸张底、巨大红橙展示字、青绿色技术服装或硬件、密集机械线稿、标注面板、平面赛璐璐阴影和微微褪色的印刷颗粒。</p>
-<p><a href="styles/turquoise-red-techno-manga-poster-style/style.json"><strong>打开 style.json</strong></a> · <a href="styles/turquoise-red-techno-manga-poster-style">目录</a></p>
+<p><a href="styles/turquoise-red-techno-manga-poster-style/style.json"><strong>打开 style.json</strong></a> · <a href="docs/copy-prompts/turquoise-red-techno-manga-poster-style.md">复制提示词</a> · <a href="styles/turquoise-red-techno-manga-poster-style">目录</a></p>
 </td>
 </tr>
 </table>
@@ -187,7 +191,7 @@ python3 scripts/validate-style-json.py .
 
 一种密集的扁平吉祥物海报风格：巨大黑色块状标题字、白色贴纸感角色、粗黑卡通描边、斜切柠檬黄或青绿色面板、紧凑作品集卡片标签、少量红色点缀，以及干净米白印刷表面。
 
-文件：[style.json](styles/bold-block-mascot-poster-style/style.json) · [16:9 预览](styles/bold-block-mascot-poster-style/preview-16x9.jpg) · [9:16 预览](styles/bold-block-mascot-poster-style/preview-9x16.jpg) · [目录](styles/bold-block-mascot-poster-style)
+文件：[style.json](styles/bold-block-mascot-poster-style/style.json) · [复制提示词](docs/copy-prompts/bold-block-mascot-poster-style.md) · [16:9 预览](styles/bold-block-mascot-poster-style/preview-16x9.jpg) · [9:16 预览](styles/bold-block-mascot-poster-style/preview-9x16.jpg) · [目录](styles/bold-block-mascot-poster-style)
 
 ---
 
@@ -197,7 +201,7 @@ python3 scripts/validate-style-json.py .
 
 一种蓝色 HUD 创作者科技发布海报风格：微距 3D 硬件主视觉、超大的罗纹手套、电蓝色玻璃界面面板、巨大压缩白色标题字、密集功能卡片层级，以及一个暖金色性能徽章。
 
-文件： [style.json](styles/blue-hud-macro-product-poster/style.json) · [16:9 预览](styles/blue-hud-macro-product-poster/preview-16x9.jpg) · [9:16 预览](styles/blue-hud-macro-product-poster/preview-9x16.jpg) · [目录](styles/blue-hud-macro-product-poster)
+文件： [style.json](styles/blue-hud-macro-product-poster/style.json) · [复制提示词](docs/copy-prompts/blue-hud-macro-product-poster.md) · [16:9 预览](styles/blue-hud-macro-product-poster/preview-16x9.jpg) · [9:16 预览](styles/blue-hud-macro-product-poster/preview-9x16.jpg) · [目录](styles/blue-hud-macro-product-poster)
 
 ---
 
@@ -207,7 +211,7 @@ python3 scripts/validate-style-json.py .
 
 一种密集的中文社交电商产品广告风格：微距鱼眼产品隧道、贴近镜头的主产品、巨大斜切白色中文标题、暖焦糖棕灯光、蓝色标注条、底部产品信息条和高光泽质感。
 
-文件：[style.json](styles/warm-fisheye-product-impact-ad-style/style.json) · [16:9 预览](styles/warm-fisheye-product-impact-ad-style/preview-16x9.jpg) · [9:16 预览](styles/warm-fisheye-product-impact-ad-style/preview-9x16.jpg) · [目录](styles/warm-fisheye-product-impact-ad-style)
+文件：[style.json](styles/warm-fisheye-product-impact-ad-style/style.json) · [复制提示词](docs/copy-prompts/warm-fisheye-product-impact-ad-style.md) · [16:9 预览](styles/warm-fisheye-product-impact-ad-style/preview-16x9.jpg) · [9:16 预览](styles/warm-fisheye-product-impact-ad-style/preview-9x16.jpg) · [目录](styles/warm-fisheye-product-impact-ad-style)
 
 ---
 
@@ -217,7 +221,7 @@ python3 scripts/validate-style-json.py .
 
 一种动感手工体育海报风格：米白纸底、不规则橄榄绿块、超大斜向动作人物、粗黑墨线、红色马克笔运动弧、黄绿色干刷笔触和丝网印刷质感。
 
-文件：[style.json](styles/olive-scribble-sports-poster-style/style.json) · [16:9 预览](styles/olive-scribble-sports-poster-style/preview-16x9.jpg) · [9:16 预览](styles/olive-scribble-sports-poster-style/preview-9x16.jpg) · [目录](styles/olive-scribble-sports-poster-style)
+文件：[style.json](styles/olive-scribble-sports-poster-style/style.json) · [复制提示词](docs/copy-prompts/olive-scribble-sports-poster-style.md) · [16:9 预览](styles/olive-scribble-sports-poster-style/preview-16x9.jpg) · [9:16 预览](styles/olive-scribble-sports-poster-style/preview-9x16.jpg) · [目录](styles/olive-scribble-sports-poster-style)
 
 ---
 
@@ -227,7 +231,7 @@ python3 scripts/validate-style-json.py .
 
 一种高冲击动漫网页缩略图系统：超大反应角色、带硬黑阴影的醒目黄色标题字、分屏构图、较小的发光动作揭示区、冷蓝/青蓝背景，以及干净的赛璐璐插画质感。
 
-文件：[style.json](styles/bold-anime-reaction-thumbnail-style/style.json) · [16:9 预览](styles/bold-anime-reaction-thumbnail-style/preview-16x9.jpg) · [9:16 预览](styles/bold-anime-reaction-thumbnail-style/preview-9x16.jpg) · [目录](styles/bold-anime-reaction-thumbnail-style)
+文件：[style.json](styles/bold-anime-reaction-thumbnail-style/style.json) · [复制提示词](docs/copy-prompts/bold-anime-reaction-thumbnail-style.md) · [16:9 预览](styles/bold-anime-reaction-thumbnail-style/preview-16x9.jpg) · [9:16 预览](styles/bold-anime-reaction-thumbnail-style/preview-9x16.jpg) · [目录](styles/bold-anime-reaction-thumbnail-style)
 
 ---
 
@@ -237,7 +241,7 @@ python3 scripts/validate-style-json.py .
 
 一种复古科技漫画海报系统：奶油色纸张底、巨大红色展示字、青绿色技术服装或硬件、密集机械线稿、标注面板、赛璐璐阴影人物绘制和微微褪色的印刷质感。
 
-文件：[style.json](styles/turquoise-red-techno-manga-poster-style/style.json) · [16:9 预览](styles/turquoise-red-techno-manga-poster-style/preview-16x9.jpg) · [9:16 预览](styles/turquoise-red-techno-manga-poster-style/preview-9x16.jpg) · [目录](styles/turquoise-red-techno-manga-poster-style)
+文件：[style.json](styles/turquoise-red-techno-manga-poster-style/style.json) · [复制提示词](docs/copy-prompts/turquoise-red-techno-manga-poster-style.md) · [16:9 预览](styles/turquoise-red-techno-manga-poster-style/preview-16x9.jpg) · [9:16 预览](styles/turquoise-red-techno-manga-poster-style/preview-9x16.jpg) · [目录](styles/turquoise-red-techno-manga-poster-style)
 
 ---
 
@@ -247,7 +251,7 @@ python3 scripts/validate-style-json.py .
 
 一种高调流行文化海报系统：极端鱼眼摄影、中央凸面玻璃圆顶、超大环绕字体、红橙洋红字面、水蓝色折射光弧、暖白留白和轻微模拟印刷质感，像通过扭曲圆形镜头看到的当代音乐、时尚或文化活动主视觉。
 
-文件：[style.json](styles/chromatic-fisheye-orbit-pop-poster-style/style.json) · [16:9 预览](styles/chromatic-fisheye-orbit-pop-poster-style/preview-16x9.jpg) · [9:16 预览](styles/chromatic-fisheye-orbit-pop-poster-style/preview-9x16.jpg) · [目录](styles/chromatic-fisheye-orbit-pop-poster-style)
+文件：[style.json](styles/chromatic-fisheye-orbit-pop-poster-style/style.json) · [复制提示词](docs/copy-prompts/chromatic-fisheye-orbit-pop-poster-style.md) · [16:9 预览](styles/chromatic-fisheye-orbit-pop-poster-style/preview-16x9.jpg) · [9:16 预览](styles/chromatic-fisheye-orbit-pop-poster-style/preview-9x16.jpg) · [目录](styles/chromatic-fisheye-orbit-pop-poster-style)
 
 ---
 
@@ -257,7 +261,7 @@ python3 scripts/validate-style-json.py .
 
 一种友好的手绘公共服务海报风格：粗糙马克笔线条、巨大蓝框对话牌标题、简化卡通人物、扁平公共场景道具、柔和纸张背景、警示符号和有意天真的透视。
 
-文件：[style.json](styles/naive-marker-psa-poster-style/style.json) · [16:9 预览](styles/naive-marker-psa-poster-style/preview-16x9.jpg) · [9:16 预览](styles/naive-marker-psa-poster-style/preview-9x16.jpg) · [目录](styles/naive-marker-psa-poster-style)
+文件：[style.json](styles/naive-marker-psa-poster-style/style.json) · [复制提示词](docs/copy-prompts/naive-marker-psa-poster-style.md) · [16:9 预览](styles/naive-marker-psa-poster-style/preview-16x9.jpg) · [9:16 预览](styles/naive-marker-psa-poster-style/preview-9x16.jpg) · [目录](styles/naive-marker-psa-poster-style)
 
 ---
 
@@ -267,7 +271,7 @@ python3 scripts/validate-style-json.py .
 
 一种清爽白底青年文化动作海报风格：中央鱼眼动作照片、超大圆润皇家蓝字体、破框前景尺度、小号蓝色编辑文字，以及一个红色手绘圈注。
 
-文件：[style.json](styles/blue-bubble-fisheye-action-poster-style/style.json) · [16:9 预览](styles/blue-bubble-fisheye-action-poster-style/preview-16x9.jpg) · [9:16 预览](styles/blue-bubble-fisheye-action-poster-style/preview-9x16.jpg) · [目录](styles/blue-bubble-fisheye-action-poster-style)
+文件：[style.json](styles/blue-bubble-fisheye-action-poster-style/style.json) · [复制提示词](docs/copy-prompts/blue-bubble-fisheye-action-poster-style.md) · [16:9 预览](styles/blue-bubble-fisheye-action-poster-style/preview-16x9.jpg) · [9:16 预览](styles/blue-bubble-fisheye-action-poster-style/preview-9x16.jpg) · [目录](styles/blue-bubble-fisheye-action-poster-style)
 
 ---
 
@@ -277,7 +281,7 @@ python3 scripts/validate-style-json.py .
 
 一种温暖低光的居家随拍风格：在真实卧室、沙发或桌面照片前景叠加一个大型平面 2D 抱枕玩偶伙伴，形成安静的深夜创作日记氛围，并保留房间纹理、屏幕微光和少量手写涂鸦符号。
 
-文件：[style.json](styles/cozy-bedroom-doodle-companion-snapshot-style/style.json) · [16:9 预览](styles/cozy-bedroom-doodle-companion-snapshot-style/preview-16x9.jpg) · [9:16 预览](styles/cozy-bedroom-doodle-companion-snapshot-style/preview-9x16.jpg) · [目录](styles/cozy-bedroom-doodle-companion-snapshot-style)
+文件：[style.json](styles/cozy-bedroom-doodle-companion-snapshot-style/style.json) · [复制提示词](docs/copy-prompts/cozy-bedroom-doodle-companion-snapshot-style.md) · [16:9 预览](styles/cozy-bedroom-doodle-companion-snapshot-style/preview-16x9.jpg) · [9:16 预览](styles/cozy-bedroom-doodle-companion-snapshot-style/preview-9x16.jpg) · [目录](styles/cozy-bedroom-doodle-companion-snapshot-style)
 
 ---
 
@@ -287,7 +291,7 @@ python3 scripts/validate-style-json.py .
 
 一种明亮的旅行照片拼贴风格：在真实地标摄影上叠加巨大的平面 2D 卡通旅人、奇幻民俗鱼、黑色马克笔环线、飞溅符号和漫画星爆。
 
-文件：[style.json](styles/surreal-fish-doodle-landmark-photo-collage-style/style.json) · [16:9 预览](styles/surreal-fish-doodle-landmark-photo-collage-style/preview-16x9.jpg) · [9:16 预览](styles/surreal-fish-doodle-landmark-photo-collage-style/preview-9x16.jpg) · [目录](styles/surreal-fish-doodle-landmark-photo-collage-style)
+文件：[style.json](styles/surreal-fish-doodle-landmark-photo-collage-style/style.json) · [复制提示词](docs/copy-prompts/surreal-fish-doodle-landmark-photo-collage-style.md) · [16:9 预览](styles/surreal-fish-doodle-landmark-photo-collage-style/preview-16x9.jpg) · [9:16 预览](styles/surreal-fish-doodle-landmark-photo-collage-style/preview-9x16.jpg) · [目录](styles/surreal-fish-doodle-landmark-photo-collage-style)
 
 ---
 
@@ -297,7 +301,7 @@ python3 scripts/validate-style-json.py .
 
 一种高能玩具产品海报风格：以毛绒质感产品为主角，搭配复古奶油色海报纸、青蓝色圆形背景、超大倾斜漫画字体、厚重黑色阴影、涂鸦批注、贴纸标签和广告微文案。
 
-文件：[style.json](styles/plush-comic-toy-product-poster-style/style.json) · [16:9 预览](styles/plush-comic-toy-product-poster-style/preview-16x9.jpg) · [9:16 预览](styles/plush-comic-toy-product-poster-style/preview-9x16.jpg) · [目录](styles/plush-comic-toy-product-poster-style)
+文件：[style.json](styles/plush-comic-toy-product-poster-style/style.json) · [复制提示词](docs/copy-prompts/plush-comic-toy-product-poster-style.md) · [16:9 预览](styles/plush-comic-toy-product-poster-style/preview-16x9.jpg) · [9:16 预览](styles/plush-comic-toy-product-poster-style/preview-9x16.jpg) · [目录](styles/plush-comic-toy-product-poster-style)
 
 ---
 
@@ -307,7 +311,7 @@ python3 scripts/validate-style-json.py .
 
 一种粗线动画宠物喜剧分镜草图风格：暖米色纸感、红棕色结构线、深酒红粗糙轮廓、半透明色洗、轻描室内背景和夸张动物表情。
 
-文件：[style.json](styles/rough-animation-pet-sketch-storyboard-style/style.json) · [16:9 预览](styles/rough-animation-pet-sketch-storyboard-style/preview-16x9.jpg) · [9:16 预览](styles/rough-animation-pet-sketch-storyboard-style/preview-9x16.jpg) · [目录](styles/rough-animation-pet-sketch-storyboard-style)
+文件：[style.json](styles/rough-animation-pet-sketch-storyboard-style/style.json) · [复制提示词](docs/copy-prompts/rough-animation-pet-sketch-storyboard-style.md) · [16:9 预览](styles/rough-animation-pet-sketch-storyboard-style/preview-16x9.jpg) · [9:16 预览](styles/rough-animation-pet-sketch-storyboard-style/preview-9x16.jpg) · [目录](styles/rough-animation-pet-sketch-storyboard-style)
 
 ---
 
@@ -317,7 +321,7 @@ python3 scripts/validate-style-json.py .
 
 一种干净的三色硬切肖像海报风格：平面青绿色背景、珊瑚红主体色块、近黑色剪影与阴影，把所有细节压缩成大块、硬边、类矢量的剪影形状。
 
-文件：[style.json](styles/tri-color-hardcut-portrait-poster-style/style.json) · [16:9 预览](styles/tri-color-hardcut-portrait-poster-style/preview-16x9.jpg) · [9:16 预览](styles/tri-color-hardcut-portrait-poster-style/preview-9x16.jpg) · [目录](styles/tri-color-hardcut-portrait-poster-style)
+文件：[style.json](styles/tri-color-hardcut-portrait-poster-style/style.json) · [复制提示词](docs/copy-prompts/tri-color-hardcut-portrait-poster-style.md) · [16:9 预览](styles/tri-color-hardcut-portrait-poster-style/preview-16x9.jpg) · [9:16 预览](styles/tri-color-hardcut-portrait-poster-style/preview-9x16.jpg) · [目录](styles/tri-color-hardcut-portrait-poster-style)
 
 ---
 
@@ -327,7 +331,7 @@ python3 scripts/validate-style-json.py .
 
 一种干净的旅行 vlog 缩略图系统：三栏竖向摄影拼接、超大的小写白色目的地标题、小号斜体旅行批注、少量手绘白色符号，以及柔和的手机摄影编辑质感。
 
-文件：[style.json](styles/clean-triptych-travel-vlog-thumbnail-style/style.json) · [16:9 预览](styles/clean-triptych-travel-vlog-thumbnail-style/preview-16x9.jpg) · [9:16 预览](styles/clean-triptych-travel-vlog-thumbnail-style/preview-9x16.jpg) · [目录](styles/clean-triptych-travel-vlog-thumbnail-style)
+文件：[style.json](styles/clean-triptych-travel-vlog-thumbnail-style/style.json) · [复制提示词](docs/copy-prompts/clean-triptych-travel-vlog-thumbnail-style.md) · [16:9 预览](styles/clean-triptych-travel-vlog-thumbnail-style/preview-16x9.jpg) · [9:16 预览](styles/clean-triptych-travel-vlog-thumbnail-style/preview-9x16.jpg) · [目录](styles/clean-triptych-travel-vlog-thumbnail-style)
 
 ---
 
@@ -337,7 +341,7 @@ python3 scripts/validate-style-json.py .
 
 一种把真实生活社交照片转成轻快贴纸拼贴海报的风格：在摄影场景上叠加原创卡通吉祥物贴纸、手绘描边、丝带标题牌、闪光、螺旋和草稿感装饰符号。
 
-文件：[style.json](styles/playful-mascot-doodle-snapshot-style/style.json) · [16:9 预览](styles/playful-mascot-doodle-snapshot-style/preview-16x9.jpg) · [9:16 预览](styles/playful-mascot-doodle-snapshot-style/preview-9x16.jpg) · [目录](styles/playful-mascot-doodle-snapshot-style)
+文件：[style.json](styles/playful-mascot-doodle-snapshot-style/style.json) · [复制提示词](docs/copy-prompts/playful-mascot-doodle-snapshot-style.md) · [16:9 预览](styles/playful-mascot-doodle-snapshot-style/preview-16x9.jpg) · [9:16 预览](styles/playful-mascot-doodle-snapshot-style/preview-9x16.jpg) · [目录](styles/playful-mascot-doodle-snapshot-style)
 
 ---
 
@@ -347,7 +351,7 @@ python3 scripts/validate-style-json.py .
 
 一种复古滑板 zine 海报风格：扭曲的中央滑板人物剪贴、奶油纸张底、松散红色手写边框字、粗粝双色丝网印刷质感，以及海军蓝、灰、绿、赭色的有限街头配色。
 
-文件：[style.json](styles/teenage-skate-scribble-screenprint-poster-style/style.json) · [16:9 预览](styles/teenage-skate-scribble-screenprint-poster-style/preview-16x9.jpg) · [9:16 预览](styles/teenage-skate-scribble-screenprint-poster-style/preview-9x16.jpg) · [目录](styles/teenage-skate-scribble-screenprint-poster-style)
+文件：[style.json](styles/teenage-skate-scribble-screenprint-poster-style/style.json) · [复制提示词](docs/copy-prompts/teenage-skate-scribble-screenprint-poster-style.md) · [16:9 预览](styles/teenage-skate-scribble-screenprint-poster-style/preview-16x9.jpg) · [9:16 预览](styles/teenage-skate-scribble-screenprint-poster-style/preview-9x16.jpg) · [目录](styles/teenage-skate-scribble-screenprint-poster-style)
 
 ---
 
@@ -357,7 +361,7 @@ python3 scripts/validate-style-json.py .
 
 一种响亮的复古漫画海报系统：厚重黑色墨线、扁平高饱和色块、超大冲击字体、夸张插画主体、对角道具、对话爆裂形、烟雾团、半色调网点和做旧丝网印刷颗粒。
 
-文件：[style.json](styles/impact-burst-halftone-comic-poster-style/style.json) · [16:9 预览](styles/impact-burst-halftone-comic-poster-style/preview-16x9.jpg) · [9:16 预览](styles/impact-burst-halftone-comic-poster-style/preview-9x16.jpg) · [目录](styles/impact-burst-halftone-comic-poster-style)
+文件：[style.json](styles/impact-burst-halftone-comic-poster-style/style.json) · [复制提示词](docs/copy-prompts/impact-burst-halftone-comic-poster-style.md) · [16:9 预览](styles/impact-burst-halftone-comic-poster-style/preview-16x9.jpg) · [9:16 预览](styles/impact-burst-halftone-comic-poster-style/preview-9x16.jpg) · [目录](styles/impact-burst-halftone-comic-poster-style)
 
 ---
 
@@ -367,7 +371,7 @@ python3 scripts/validate-style-json.py .
 
 一种超低机位鱼眼夏日生活方式海报风格：近距离摄影主体、饱和钴蓝天空、巨大的拱形柠檬黄色泡泡字体、暖橙色文字阴影、Y2K 配饰和明显的模拟胶片颗粒。
 
-文件：[style.json](styles/sunburst-fisheye-bubble-type-poster-style/style.json) · [16:9 预览](styles/sunburst-fisheye-bubble-type-poster-style/preview-16x9.jpg) · [9:16 预览](styles/sunburst-fisheye-bubble-type-poster-style/preview-9x16.jpg) · [目录](styles/sunburst-fisheye-bubble-type-poster-style)
+文件：[style.json](styles/sunburst-fisheye-bubble-type-poster-style/style.json) · [复制提示词](docs/copy-prompts/sunburst-fisheye-bubble-type-poster-style.md) · [16:9 预览](styles/sunburst-fisheye-bubble-type-poster-style/preview-16x9.jpg) · [9:16 预览](styles/sunburst-fisheye-bubble-type-poster-style/preview-9x16.jpg) · [目录](styles/sunburst-fisheye-bubble-type-poster-style)
 
 ---
 
@@ -377,7 +381,7 @@ python3 scripts/validate-style-json.py .
 
 一种把真实乘客视角交通照片转化为高能旅行海报的风格：后视中央人物、电光黄色剪影光晕、巨大的黄橙色手绘字母、漫画放射线、紫色音乐符号、贴纸图标和青白色云朵涂鸦。
 
-文件：[style.json](styles/backseat-transit-doodle-letter-poster-style/style.json) · [16:9 预览](styles/backseat-transit-doodle-letter-poster-style/preview-16x9.jpg) · [9:16 预览](styles/backseat-transit-doodle-letter-poster-style/preview-9x16.jpg) · [目录](styles/backseat-transit-doodle-letter-poster-style)
+文件：[style.json](styles/backseat-transit-doodle-letter-poster-style/style.json) · [复制提示词](docs/copy-prompts/backseat-transit-doodle-letter-poster-style.md) · [16:9 预览](styles/backseat-transit-doodle-letter-poster-style/preview-16x9.jpg) · [9:16 预览](styles/backseat-transit-doodle-letter-poster-style/preview-9x16.jpg) · [目录](styles/backseat-transit-doodle-letter-poster-style)
 
 ---
 
@@ -387,7 +391,7 @@ python3 scripts/validate-style-json.py .
 
 一种怀旧模拟日记拼贴肖像系统：大型侧脸插画人物、奶油色方格纸背景、贴纸化的私人小物、磨损橙色手写字和厚重的扫描印刷质感。
 
-文件：[style.json](styles/analog-sticker-diary-portrait-poster-style/style.json) · [16:9 预览](styles/analog-sticker-diary-portrait-poster-style/preview-16x9.jpg) · [9:16 预览](styles/analog-sticker-diary-portrait-poster-style/preview-9x16.jpg) · [目录](styles/analog-sticker-diary-portrait-poster-style)
+文件：[style.json](styles/analog-sticker-diary-portrait-poster-style/style.json) · [复制提示词](docs/copy-prompts/analog-sticker-diary-portrait-poster-style.md) · [16:9 预览](styles/analog-sticker-diary-portrait-poster-style/preview-16x9.jpg) · [9:16 预览](styles/analog-sticker-diary-portrait-poster-style/preview-9x16.jpg) · [目录](styles/analog-sticker-diary-portrait-poster-style)
 
 ---
 
@@ -397,7 +401,7 @@ python3 scripts/validate-style-json.py .
 
 一种大胆的极简编辑海报风格：低机位英雄摄影嵌入菱形开口，折叠的棕褐色纸张或帆布平面，以及印在下方平面上的巨大白色透视字体。
 
-文件：[style.json](styles/folded-diamond-perspective-type-poster-style/style.json) · [16:9 预览](styles/folded-diamond-perspective-type-poster-style/preview-16x9.jpg) · [9:16 预览](styles/folded-diamond-perspective-type-poster-style/preview-9x16.jpg) · [目录](styles/folded-diamond-perspective-type-poster-style)
+文件：[style.json](styles/folded-diamond-perspective-type-poster-style/style.json) · [复制提示词](docs/copy-prompts/folded-diamond-perspective-type-poster-style.md) · [16:9 预览](styles/folded-diamond-perspective-type-poster-style/preview-16x9.jpg) · [9:16 预览](styles/folded-diamond-perspective-type-poster-style/preview-9x16.jpg) · [目录](styles/folded-diamond-perspective-type-poster-style)
 
 ---
 
@@ -407,7 +411,7 @@ python3 scripts/validate-style-json.py .
 
 一种玩趣的摄影插画拼贴风格：戏剧化真实建筑摄影、超大扁平卡通生物叠加、圆润手绘标题字和松散马克笔涂鸦。
 
-文件：[style.json](styles/gothic-cat-doodle-photo-collage-style/style.json) · [16:9 预览](styles/gothic-cat-doodle-photo-collage-style/preview-16x9.jpg) · [9:16 预览](styles/gothic-cat-doodle-photo-collage-style/preview-9x16.jpg) · [目录](styles/gothic-cat-doodle-photo-collage-style)
+文件：[style.json](styles/gothic-cat-doodle-photo-collage-style/style.json) · [复制提示词](docs/copy-prompts/gothic-cat-doodle-photo-collage-style.md) · [16:9 预览](styles/gothic-cat-doodle-photo-collage-style/preview-16x9.jpg) · [9:16 预览](styles/gothic-cat-doodle-photo-collage-style/preview-9x16.jpg) · [目录](styles/gothic-cat-doodle-photo-collage-style)
 
 ---
 
@@ -417,7 +421,7 @@ python3 scripts/validate-style-json.py .
 
 一种极繁 K-pop 时尚 zine 拼贴风格：中央人物剪贴、揉皱黑白纸张质感、倾斜勒索信式排版、响亮贴纸块、饱和青柠/蓝/红点缀，以及醒目的底部刊头色带。
 
-文件：[style.json](styles/k-pop-apocalypse-ransom-zine-style/style.json) · [16:9 预览](styles/k-pop-apocalypse-ransom-zine-style/preview-16x9.jpg) · [9:16 预览](styles/k-pop-apocalypse-ransom-zine-style/preview-9x16.jpg) · [目录](styles/k-pop-apocalypse-ransom-zine-style)
+文件：[style.json](styles/k-pop-apocalypse-ransom-zine-style/style.json) · [复制提示词](docs/copy-prompts/k-pop-apocalypse-ransom-zine-style.md) · [16:9 预览](styles/k-pop-apocalypse-ransom-zine-style/preview-16x9.jpg) · [9:16 预览](styles/k-pop-apocalypse-ransom-zine-style/preview-9x16.jpg) · [目录](styles/k-pop-apocalypse-ransom-zine-style)
 
 ---
 
@@ -427,7 +431,7 @@ python3 scripts/validate-style-json.py .
 
 一种手持城市交通照片拼贴风格：真实拥挤的地铁、公交、电车或车站快照，叠加马克笔感卡通涂鸦、超大前景手势、白色手写日记文字和高饱和漫画脸。
 
-文件：[style.json](styles/metro-doodle-snapshot-diary-style/style.json) · [16:9 预览](styles/metro-doodle-snapshot-diary-style/preview-16x9.jpg) · [9:16 预览](styles/metro-doodle-snapshot-diary-style/preview-9x16.jpg) · [目录](styles/metro-doodle-snapshot-diary-style)
+文件：[style.json](styles/metro-doodle-snapshot-diary-style/style.json) · [复制提示词](docs/copy-prompts/metro-doodle-snapshot-diary-style.md) · [16:9 预览](styles/metro-doodle-snapshot-diary-style/preview-16x9.jpg) · [9:16 预览](styles/metro-doodle-snapshot-diary-style/preview-9x16.jpg) · [目录](styles/metro-doodle-snapshot-diary-style)
 
 ---
 
@@ -437,7 +441,7 @@ python3 scripts/validate-style-json.py .
 
 一种把户外徒步随手拍改造成冒险海报的拼贴风格：真实山路照片、扁平手绘怪物伙伴、超大西班牙语漫画字和松散草图标注。
 
-文件：[style.json](styles/mountain-trail-monster-doodle-poster-style/style.json) · [16:9 预览](styles/mountain-trail-monster-doodle-poster-style/preview-16x9.jpg) · [9:16 预览](styles/mountain-trail-monster-doodle-poster-style/preview-9x16.jpg) · [目录](styles/mountain-trail-monster-doodle-poster-style)
+文件：[style.json](styles/mountain-trail-monster-doodle-poster-style/style.json) · [复制提示词](docs/copy-prompts/mountain-trail-monster-doodle-poster-style.md) · [16:9 预览](styles/mountain-trail-monster-doodle-poster-style/preview-16x9.jpg) · [9:16 预览](styles/mountain-trail-monster-doodle-poster-style/preview-9x16.jpg) · [目录](styles/mountain-trail-monster-doodle-poster-style)
 
 ---
 
@@ -447,7 +451,7 @@ python3 scripts/validate-style-json.py .
 
 一种手机随拍叠加霓虹数字马克笔涂鸦的风格：热粉和青色人物描边、黄色怪物尖刺、粗糙手写标题、星星、爪印、蛛网角标、涂抹条、光环、植物和学生日记感。
 
-文件：[style.json](styles/neon-doodle-gallery-snapshot-style/style.json) · [16:9 预览](styles/neon-doodle-gallery-snapshot-style/preview-16x9.jpg) · [9:16 预览](styles/neon-doodle-gallery-snapshot-style/preview-9x16.jpg) · [目录](styles/neon-doodle-gallery-snapshot-style)
+文件：[style.json](styles/neon-doodle-gallery-snapshot-style/style.json) · [复制提示词](docs/copy-prompts/neon-doodle-gallery-snapshot-style.md) · [16:9 预览](styles/neon-doodle-gallery-snapshot-style/preview-16x9.jpg) · [9:16 预览](styles/neon-doodle-gallery-snapshot-style/preview-9x16.jpg) · [目录](styles/neon-doodle-gallery-snapshot-style)
 
 ---
 
@@ -457,7 +461,7 @@ python3 scripts/validate-style-json.py .
 
 一种戏剧化户外编辑海报风格：低机位生活方式摄影、巨大的变形霓虹字体、胶片颗粒，以及高能青年文化广告视觉。
 
-文件：[style.json](styles/neon-kinetic-typographic-poster-style/style.json) · [16:9 预览](styles/neon-kinetic-typographic-poster-style/preview-16x9.jpg) · [9:16 预览](styles/neon-kinetic-typographic-poster-style/preview-9x16.jpg) · [目录](styles/neon-kinetic-typographic-poster-style)
+文件：[style.json](styles/neon-kinetic-typographic-poster-style/style.json) · [复制提示词](docs/copy-prompts/neon-kinetic-typographic-poster-style.md) · [16:9 预览](styles/neon-kinetic-typographic-poster-style/preview-16x9.jpg) · [9:16 预览](styles/neon-kinetic-typographic-poster-style/preview-9x16.jpg) · [目录](styles/neon-kinetic-typographic-poster-style)
 
 ---
 
@@ -467,7 +471,7 @@ python3 scripts/validate-style-json.py .
 
 一种稀疏的橙白黑扁平插画系统：白色吉祥物人物、超大道具、粗糙黑色干刷线条、橙色脸颊圆点和丝网印刷纸张颗粒。
 
-文件：[style.json](styles/orange-brush-mascot-action-poster-style/style.json) · [16:9 预览](styles/orange-brush-mascot-action-poster-style/preview-16x9.jpg) · [9:16 预览](styles/orange-brush-mascot-action-poster-style/preview-9x16.jpg) · [目录](styles/orange-brush-mascot-action-poster-style)
+文件：[style.json](styles/orange-brush-mascot-action-poster-style/style.json) · [复制提示词](docs/copy-prompts/orange-brush-mascot-action-poster-style.md) · [16:9 预览](styles/orange-brush-mascot-action-poster-style/preview-16x9.jpg) · [9:16 预览](styles/orange-brush-mascot-action-poster-style/preview-9x16.jpg) · [目录](styles/orange-brush-mascot-action-poster-style)
 
 ---
 
@@ -477,7 +481,7 @@ python3 scripts/validate-style-json.py .
 
 一种真实城市照片叠加高饱和扁平 2D 卡通人物的海报风格，并加入手绘星星、火花、箭头和漫画符号。
 
-文件：[style.json](styles/photo-illustration-overlay-poster-style/style.json) · [16:9 预览](styles/photo-illustration-overlay-poster-style/preview-16x9.jpg) · [9:16 预览](styles/photo-illustration-overlay-poster-style/preview-9x16.jpg) · [目录](styles/photo-illustration-overlay-poster-style)
+文件：[style.json](styles/photo-illustration-overlay-poster-style/style.json) · [复制提示词](docs/copy-prompts/photo-illustration-overlay-poster-style.md) · [16:9 预览](styles/photo-illustration-overlay-poster-style/preview-16x9.jpg) · [9:16 预览](styles/photo-illustration-overlay-poster-style/preview-9x16.jpg) · [目录](styles/photo-illustration-overlay-poster-style)
 
 ---
 
@@ -487,7 +491,7 @@ python3 scripts/validate-style-json.py .
 
 一种明亮的移动端活动海报风格：真实城市地标、柔软毛绒吉祥物、圆角 App 卡片式框架、醒目的白色节日字体、日期地点信息和友好的旅游推广气质。
 
-文件：[style.json](styles/plush-city-festival-mobile-poster-style/style.json) · [16:9 预览](styles/plush-city-festival-mobile-poster-style/preview-16x9.jpg) · [9:16 预览](styles/plush-city-festival-mobile-poster-style/preview-9x16.jpg) · [目录](styles/plush-city-festival-mobile-poster-style)
+文件：[style.json](styles/plush-city-festival-mobile-poster-style/style.json) · [复制提示词](docs/copy-prompts/plush-city-festival-mobile-poster-style.md) · [16:9 预览](styles/plush-city-festival-mobile-poster-style/preview-16x9.jpg) · [9:16 预览](styles/plush-city-festival-mobile-poster-style/preview-9x16.jpg) · [目录](styles/plush-city-festival-mobile-poster-style)
 
 ---
 
@@ -497,7 +501,7 @@ python3 scripts/validate-style-json.py .
 
 一种有冲击力的摄影插画海报风格：低机位时尚肖像位于中心，周围是超大扁平泡泡字形、糖果色、高对比黑色描边、椭圆高光和清脆闪光符号。
 
-文件：[style.json](styles/pop-bubble-letter-photo-poster-style/style.json) · [16:9 预览](styles/pop-bubble-letter-photo-poster-style/preview-16x9.jpg) · [9:16 预览](styles/pop-bubble-letter-photo-poster-style/preview-9x16.jpg) · [目录](styles/pop-bubble-letter-photo-poster-style)
+文件：[style.json](styles/pop-bubble-letter-photo-poster-style/style.json) · [复制提示词](docs/copy-prompts/pop-bubble-letter-photo-poster-style.md) · [16:9 预览](styles/pop-bubble-letter-photo-poster-style/preview-16x9.jpg) · [9:16 预览](styles/pop-bubble-letter-photo-poster-style/preview-9x16.jpg) · [目录](styles/pop-bubble-letter-photo-poster-style)
 
 ---
 
@@ -507,7 +511,7 @@ python3 scripts/validate-style-json.py .
 
 一种安静的模拟未来编辑海报风格：暖奶油纸张、超大黑色 neo-grotesk 字体、严格网格规则、复古科技静物、浅蓝半透明界面面板、植物前景点缀和细小双语信息设计。
 
-文件：[style.json](styles/soft-analog-future-editorial-poster-style/style.json) · [16:9 预览](styles/soft-analog-future-editorial-poster-style/preview-16x9.jpg) · [9:16 预览](styles/soft-analog-future-editorial-poster-style/preview-9x16.jpg) · [目录](styles/soft-analog-future-editorial-poster-style)
+文件：[style.json](styles/soft-analog-future-editorial-poster-style/style.json) · [复制提示词](docs/copy-prompts/soft-analog-future-editorial-poster-style.md) · [16:9 预览](styles/soft-analog-future-editorial-poster-style/preview-16x9.jpg) · [9:16 预览](styles/soft-analog-future-editorial-poster-style/preview-9x16.jpg) · [目录](styles/soft-analog-future-editorial-poster-style)
 
 ---
 
@@ -517,7 +521,7 @@ python3 scripts/validate-style-json.py .
 
 一种手机拍摄的城市交通海报风格：纪实地铁或街头交通摄影，叠加表现性手绘卡通覆盖层、涂鸦人物脸、超大前景手势、手写笔记和社交媒体截图质感。
 
-文件：[style.json](styles/subway-doodle-photo-hybrid-style/style.json) · [16:9 预览](styles/subway-doodle-photo-hybrid-style/preview-16x9.jpg) · [9:16 预览](styles/subway-doodle-photo-hybrid-style/preview-9x16.jpg) · [目录](styles/subway-doodle-photo-hybrid-style)
+文件：[style.json](styles/subway-doodle-photo-hybrid-style/style.json) · [复制提示词](docs/copy-prompts/subway-doodle-photo-hybrid-style.md) · [16:9 预览](styles/subway-doodle-photo-hybrid-style/preview-16x9.jpg) · [9:16 预览](styles/subway-doodle-photo-hybrid-style/preview-9x16.jpg) · [目录](styles/subway-doodle-photo-hybrid-style)
 
 ---
 
@@ -527,7 +531,7 @@ python3 scripts/validate-style-json.py .
 
 一种极繁日式城市旅行拼贴风格：醒目的目的地字体、可爱贴纸元素、漫画对话框、剪贴时尚摄影、半色调城市背景和 scrapbook 编辑版式。
 
-文件：[style.json](styles/tokyo-kawaii-travel-collage-poster-style/style.json) · [16:9 预览](styles/tokyo-kawaii-travel-collage-poster-style/preview-16x9.jpg) · [9:16 预览](styles/tokyo-kawaii-travel-collage-poster-style/preview-9x16.jpg) · [目录](styles/tokyo-kawaii-travel-collage-poster-style)
+文件：[style.json](styles/tokyo-kawaii-travel-collage-poster-style/style.json) · [复制提示词](docs/copy-prompts/tokyo-kawaii-travel-collage-poster-style.md) · [16:9 预览](styles/tokyo-kawaii-travel-collage-poster-style/preview-16x9.jpg) · [9:16 预览](styles/tokyo-kawaii-travel-collage-poster-style/preview-9x16.jpg) · [目录](styles/tokyo-kawaii-travel-collage-poster-style)
 
 ---
 
@@ -537,7 +541,7 @@ python3 scripts/validate-style-json.py .
 
 一种把原始城市公共空间快照处理成私人视觉日记的风格：真实照片、粗重手绘漫画覆盖层、手写旅行笔记、饱和卡通脸和大面积前景手势。
 
-文件：[style.json](styles/urban-transit-doodle-diary-style/style.json) · [16:9 预览](styles/urban-transit-doodle-diary-style/preview-16x9.jpg) · [9:16 预览](styles/urban-transit-doodle-diary-style/preview-9x16.jpg) · [目录](styles/urban-transit-doodle-diary-style)
+文件：[style.json](styles/urban-transit-doodle-diary-style/style.json) · [复制提示词](docs/copy-prompts/urban-transit-doodle-diary-style.md) · [16:9 预览](styles/urban-transit-doodle-diary-style/preview-16x9.jpg) · [9:16 预览](styles/urban-transit-doodle-diary-style/preview-9x16.jpg) · [目录](styles/urban-transit-doodle-diary-style)
 
 ---
 
@@ -547,7 +551,7 @@ python3 scripts/validate-style-json.py .
 
 一种 Y2K grunge hip-hop 杂志拼贴海报风格：超大照片剪贴、酸黄色复古字体、粗糙黑白墙面质感、密集编辑页脚信息区和复印机印刷噪点。
 
-文件：[style.json](styles/y2k-grunge-hiphop-cutout-poster-style/style.json) · [16:9 预览](styles/y2k-grunge-hiphop-cutout-poster-style/preview-16x9.jpg) · [9:16 预览](styles/y2k-grunge-hiphop-cutout-poster-style/preview-9x16.jpg) · [目录](styles/y2k-grunge-hiphop-cutout-poster-style)
+文件：[style.json](styles/y2k-grunge-hiphop-cutout-poster-style/style.json) · [复制提示词](docs/copy-prompts/y2k-grunge-hiphop-cutout-poster-style.md) · [16:9 预览](styles/y2k-grunge-hiphop-cutout-poster-style/preview-16x9.jpg) · [9:16 预览](styles/y2k-grunge-hiphop-cutout-poster-style/preview-9x16.jpg) · [目录](styles/y2k-grunge-hiphop-cutout-poster-style)
 
 ## 发布规则
 
