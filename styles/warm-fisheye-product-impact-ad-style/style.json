@@ -1,17 +1,9 @@
 {
   "style_name": "Warm Fisheye Product Impact Ad Style",
   "style_slug": "warm-fisheye-product-impact-ad-style",
-  "version": "2026.05.20",
-  "status": "stable",
-  "updated_at": "2026-05-20",
-  "summary": "A high-impact product advertising style built from ultra-wide close-up photography, a tunnel of textured foreground pieces, oversized angled white Chinese display type, warm amber-brown contrast, tiny top navigation labels, product-pack callouts, and compressed social-banner density. It feels like a loud commercial thumbnail shot from inside a pile of snack-like objects, with the product and subject rushing toward the viewer.",
-  "preview": {
-    "landscape": "preview-16x9.jpg",
-    "portrait": "preview-9x16.jpg"
-  },
-  "prompt_template": "Create a {ASPECT_RATIO} image in the \"Warm Fisheye Product Impact Ad Style\" visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: {STYLE_FIDELITY_ANCHORS}\nSource content to avoid: {SOURCE_CONTENT_TO_AVOID}\n\nApply these style rules:\n- Build a dense Chinese social-commerce advertising visual, not a clean editorial poster.\n- Use a macro ultra-wide fisheye viewpoint from inside a pile, bowl, bucket, or tunnel of repeated textured foreground pieces.\n- Make the hero subject, product, face, hand, tool, or package press close to the lens with cropped edges, glossy highlights, realistic occlusion, and exaggerated scale.\n- Surround the frame with warm toasted brown, caramel, golden, cream, or black foreground pieces that form a cave-like border.\n- Set {MAIN_TEXT} as huge angled white Chinese display type with heavy black drop shadow or 3D extrusion.\n- Add small generic top category labels, a bottom product-pack or prop strip, a blue callout tab, and white speed lines or radial perspective streaks.\n- Keep the finish photorealistic, high-contrast, sharpened, warm, humorous, appetizing, and retail-advertising focused.\n\nAvoid:\n- {NEGATIVE_PROMPT}\n\nImportant content rule: match the extracted style first, then change the source content. Use new subjects, new products, new package details, and new text while avoiding the original pet-food source premise.",
-  "negative_prompt": "cats, cat food, kibble, pet nutrition, pet-food pouch, copied source headline, copied source slogan, Lan Shi, Legend Sandy, brand logo, watermark, username, creator ID, platform logo, QR code, scannable barcode, exact source layout, two upper faces and one lower face, minimalist layout, empty white poster, flat vector, SVG look, HTML mockup, canvas drawing, storyboard sketch, calm catalog photo, luxury beige editorial, cold blue-only palette, malformed hands, distorted face, unreadable headline, long paragraph text",
-  "variables": {
+  "style_version": "2026.05.20",
+  "style_summary": "A high-impact product advertising style built from ultra-wide close-up photography, a tunnel of textured foreground pieces, oversized angled white Chinese display type, warm amber-brown contrast, tiny top navigation labels, product-pack callouts, and compressed social-banner density. It feels like a loud commercial thumbnail shot from inside a pile of snack-like objects, with the product and subject rushing toward the viewer.",
+  "environment_variables": {
     "SUBJECT": "new main subject, product presenter, tiny robot, athlete, maker, hand model, tool, device, or object hero that is not the source subject",
     "SUBJECT_ACTION": "leaning into the lens, reaching through foreground pieces, bursting from a product pile, presenting the prop, grabbing the hero product, or reacting with exaggerated ad energy",
     "PRODUCT_OR_PROP": "new package, beverage, snack, tool, device, camera, accessory, or product pack that is not the original source product",
@@ -23,7 +15,8 @@
     "WARDROBE_STYLE": "commercial styling appropriate to the new subject, with no copied brand marks, no source costume, and no watermarks",
     "STYLE_FIDELITY_ANCHORS": "Extreme fisheye or ultra-wide macro perspective from inside a product pile, bowl, or tunnel.; Foreground is crowded with many warm brown or golden textured pieces forming a thick border around the image.; Hero subject is very close to the lens with cropped face, hand, object, package, or product detail pressing toward the viewer.; Dense commercial banner hierarchy with little empty space, layered subject, product pack, headline, and small captions.; Huge angled white Chinese display headline with heavy black shadow or extruded 3D block depth.; Secondary text appears as small bold white or blue callouts, often tilted and tucked near the main subject.; Warm amber, caramel, toasted brown, cream, and black dominate, with small saturated blue accent panels.; High-contrast glossy photographic finish with sharpened fur-like, crumb-like, bean-like, or snack-like surface texture.; Top edge uses tiny category/navigation words in white, spaced like a commercial portfolio or ad banner.; Bottom edge contains a compact product-pack/caption strip, often with quotation-like copy and a small blue label.; Whip-like white motion lines, speed streaks, or radial perspective guides cut through the central area.; Mood is loud, humorous, appetizing, and retail-advertising focused, not minimalist or editorial.",
     "SOURCE_CONTENT_TO_AVOID": "Domestic cats, cat faces, cat body crops, cat expressions, cat whiskers, cat tongues, or any pet-food story.; Cat food, kibble, pet nutrition packaging, milk-cat wording, or the original product premise.; The exact Chinese phrases, including the source headline, source slogans, and repeated source text.; Legend Sandy, Lan Shi, blue-white brand labels, platform marks, watermarks, creator signatures, or logos.; The same three-subject arrangement of two upper faces and one central lower face peering through kibble.; The exact top labels from the source image as a reusable identity system.; The same product pouch position, exact blue product strip, or copied package silhouette.; A direct recreation of the original brown kibble cave with cats looking hungry.",
-    "ASPECT_RATIO": "9:16 or 16:9"
+    "ASPECT_RATIO": "9:16 or 16:9",
+    "NEGATIVE_PROMPT": "negative prompt constraints copied from the top-level negative_prompt field"
   },
   "style_fidelity_anchors": [
     "Extreme fisheye or ultra-wide macro perspective from inside a product pile, bowl, or tunnel.",
@@ -60,6 +53,19 @@
     "lighting": "Warm directional studio light from the front or side, deep black-brown vignette, bright highlights on product and subject, and small cool blue accents to break the warm palette.",
     "mood_and_cultural_reference": "Humorous Chinese e-commerce ad, loud social thumbnail, appetizing snack launch banner, exaggerated retail sell-through energy, and punchy product storytelling."
   },
+  "image_treatment": {
+    "photo_layer": "dense photoreal macro scene with fisheye distortion and a foreground product-pile tunnel",
+    "type_layer": "oversized white Chinese display headline with black 3D depth and perspective slant",
+    "callout_layer": "small top labels, blue tabs, product pack inset, bottom caption strip, and angled white motion lines",
+    "finish": "high-gloss social-ad composite with warm food-commercial color and crisp digital type edges"
+  },
+  "photographic_direction": {
+    "lens": "macro ultra-wide fisheye, very close to foreground pieces, barrel distortion, exaggerated subject scale, crowded edges",
+    "lighting": "warm studio key light, dark vignette, glossy highlights, strong local contrast, and a few cool blue accent panels",
+    "surface_detail": "make repeated foreground pieces tactile and appetizing with crisp rough texture, tiny shadows, and realistic occlusion",
+    "post_processing": "commercial sharpening, saturated warm color grade, hard composited typography, black shadow behind text, and radial motion streaks",
+    "subject_rendering": "photorealistic product-ad rendering; subject anatomy or object geometry should remain plausible despite fisheye distortion"
+  },
   "composition": {
     "primary_structure": "macro fisheye product cave with foreground pieces framing the edge, central hero subject, huge skewed headline, small top labels, and bottom product caption strip",
     "negative_space": "very little negative space; every edge carries foreground pieces, labels, type, or product information",
@@ -88,19 +94,6 @@
     "electric_blue_tab": "#006BD6",
     "warm_skin_or_product_highlight": "#F0B07A",
     "muted_pack_white": "#F4F0DF"
-  },
-  "photographic_direction": {
-    "lens": "macro ultra-wide fisheye, very close to foreground pieces, barrel distortion, exaggerated subject scale, crowded edges",
-    "lighting": "warm studio key light, dark vignette, glossy highlights, strong local contrast, and a few cool blue accent panels",
-    "surface_detail": "make repeated foreground pieces tactile and appetizing with crisp rough texture, tiny shadows, and realistic occlusion",
-    "post_processing": "commercial sharpening, saturated warm color grade, hard composited typography, black shadow behind text, and radial motion streaks",
-    "subject_rendering": "photorealistic product-ad rendering; subject anatomy or object geometry should remain plausible despite fisheye distortion"
-  },
-  "image_treatment": {
-    "photo_layer": "dense photoreal macro scene with fisheye distortion and a foreground product-pile tunnel",
-    "type_layer": "oversized white Chinese display headline with black 3D depth and perspective slant",
-    "callout_layer": "small top labels, blue tabs, product pack inset, bottom caption strip, and angled white motion lines",
-    "finish": "high-gloss social-ad composite with warm food-commercial color and crisp digital type edges"
   },
   "design_rules": [
     "Start every image from a macro/fisheye viewpoint inside a ring of repeated textured product pieces.",
@@ -131,10 +124,12 @@
     "Cold blue-only palettes, beige-only luxury styling, low-density poster systems, or clean corporate UI graphics.",
     "Malformed hands, broken faces, unreadable main headline, overlong microcopy, real QR codes, or scannable barcodes."
   ],
-  "example_cases": [
+  "prompt_template": "Create a {ASPECT_RATIO} image in the \"Warm Fisheye Product Impact Ad Style\" visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: {STYLE_FIDELITY_ANCHORS}\nSource content to avoid: {SOURCE_CONTENT_TO_AVOID}\n\nApply these style rules:\n- Build a dense Chinese social-commerce advertising visual, not a clean editorial poster.\n- Use a macro ultra-wide fisheye viewpoint from inside a pile, bowl, bucket, or tunnel of repeated textured foreground pieces.\n- Make the hero subject, product, face, hand, tool, or package press close to the lens with cropped edges, glossy highlights, realistic occlusion, and exaggerated scale.\n- Surround the frame with warm toasted brown, caramel, golden, cream, or black foreground pieces that form a cave-like border.\n- Set {MAIN_TEXT} as huge angled white Chinese display type with heavy black drop shadow or 3D extrusion.\n- Add small generic top category labels, a bottom product-pack or prop strip, a blue callout tab, and white speed lines or radial perspective streaks.\n- Keep the finish photorealistic, high-contrast, sharpened, warm, humorous, appetizing, and retail-advertising focused.\n\nAvoid:\n- {NEGATIVE_PROMPT}\n\nImportant content rule: match the extracted style first, then change the source content. Use new subjects, new products, new package details, and new text while avoiding the original pet-food source premise.",
+  "negative_prompt": "cats, cat food, kibble, pet nutrition, pet-food pouch, copied source headline, copied source slogan, Lan Shi, Legend Sandy, brand logo, watermark, username, creator ID, platform logo, QR code, scannable barcode, exact source layout, two upper faces and one lower face, minimalist layout, empty white poster, flat vector, SVG look, HTML mockup, canvas drawing, storyboard sketch, calm catalog photo, luxury beige editorial, cold blue-only palette, malformed hands, distorted face, unreadable headline, long paragraph text",
+  "examples": [
     {
       "case_name": "Coffee Bean Wake-Up Robot",
-      "variables": {
+      "values": {
         "SUBJECT": "tiny chrome wake-up robot and a barista hand.",
         "SUBJECT_ACTION": "the robot pops out of a panoramic roasted-coffee-bean tunnel while the hand thrusts a small espresso concentrate bottle toward the viewer.",
         "PRODUCT_OR_PROP": "matte cream espresso concentrate bottle with a generic blue label, no brand logo.",
@@ -143,15 +138,12 @@
         "MAIN_TEXT": "醒到飞!",
         "SECONDARY_TEXT": "一口浓缩 立刻开机",
         "ACCENT_SYMBOL": "blue caption tab and angled white underline.",
-        "WARDROBE_STYLE": "realistic barista hand only, no jewelry, no brand marks.",
-        "ASPECT_RATIO": "9:16 or 16:9"
-      },
-      "prompt_16x9": "Create a 16:9 horizontal image in the \"Warm Fisheye Product Impact Ad\" visual style.\n\nSubject: tiny chrome wake-up robot and a barista hand.\nAction: the robot pops out of a panoramic roasted-coffee-bean tunnel while the hand thrusts a small espresso concentrate bottle toward the viewer.\nProp/Product: matte cream espresso concentrate bottle with a generic blue label, no brand logo.\nLocation: warm tabletop studio set inside a coffee-bean cave.\nBackground: coffee beans framing every edge, dark amber vignette, tiny top labels Creative / Coffee / Morning, bottom product-pack strip, blue tab, white radial speed lines.\nMain text: 醒到飞!\nSecondary text: 一口浓缩 立刻开机\nAccent symbol: blue caption tab and angled white underline.\nWardrobe/styling: realistic barista hand only, no jewelry, no brand marks.\nStyle fidelity anchors: dense fisheye product banner, warm foreground cave, cropped close hero, giant white slanted Chinese type with black shadow, top labels, bottom pack strip, blue accents, glossy texture, motion streaks.\nSource content to avoid: cats, cat food, pet packaging, original wording, original brand marks, and the three-face source arrangement.\n\nMake it a wide commercial banner with the bottle and robot distorted toward the lens, surrounded by tactile roasted beans. Generate as a 4K ultra-high-resolution raster image.",
-      "prompt_9x16": "Create a 9:16 vertical image in the \"Warm Fisheye Product Impact Ad\" visual style.\n\nSubject: tiny chrome wake-up robot and a barista hand.\nAction: the robot bursts forward from a tunnel of glossy roasted coffee beans while the hand presents a small espresso concentrate bottle toward the lens.\nProp/Product: matte cream espresso concentrate bottle with a generic blue label, no brand logo.\nLocation: warm tabletop studio set built like a coffee-bean cave.\nBackground: repeated coffee beans around all edges, dark caramel vignette, small top labels reading Creative / Coffee / Morning, bottom product strip with bottle thumbnail and caption, blue callout tab, white speed lines.\nMain text: 醒到飞!\nSecondary text: 一口浓缩 立刻开机\nAccent symbol: angled white underline and small blue callout tab near the bottle.\nWardrobe/styling: realistic barista hand only, clean nails, no jewelry or brand marks.\nStyle fidelity anchors: macro fisheye product cave, warm brown foreground frame, cropped close hero, dense ad hierarchy, huge white slanted Chinese headline with black extrusion, small top labels, blue accents, bottom product strip, glossy high-contrast texture, white motion lines.\nSource content to avoid: cats, cat food, pet nutrition, original wording, original brand marks, original pouch, and the three-face cat composition.\n\nUse photoreal macro rendering, make the coffee beans huge at the corners, push the robot and bottle close to the fisheye lens, and keep the layout loud and compressed like a Chinese retail ad. Generate as a 4K ultra-high-resolution raster image."
+        "WARDROBE_STYLE": "realistic barista hand only, no jewelry, no brand marks."
+      }
     },
     {
       "case_name": "Popcorn Pocket Camera",
-      "variables": {
+      "values": {
         "SUBJECT": "compact retro action camera with two human hands reaching in from the sides.",
         "SUBJECT_ACTION": "the camera bursts through a panoramic popcorn tunnel while one finger presses the shutter toward the fisheye lens.",
         "PRODUCT_OR_PROP": "small teal pocket camera with a blank cream label, no logo.",
@@ -160,15 +152,12 @@
         "MAIN_TEXT": "咔嚓爽!",
         "SECONDARY_TEXT": "一按就出大片感",
         "ACCENT_SYMBOL": "blue tab and white streaks crossing the lens.",
-        "WARDROBE_STYLE": "realistic hands only, no brand marks.",
-        "ASPECT_RATIO": "9:16 or 16:9"
-      },
-      "prompt_16x9": "Create a 16:9 horizontal image in the \"Warm Fisheye Product Impact Ad\" visual style.\n\nSubject: compact retro action camera with two human hands reaching in from the sides.\nAction: the camera bursts through a panoramic popcorn tunnel while one finger presses the shutter toward the fisheye lens.\nProp/Product: small teal pocket camera with a blank cream label, no logo.\nLocation: warm cinema snack counter viewed from inside a popcorn bucket.\nBackground: golden popcorn framing the banner, dark caramel vignette, top labels Creative / Photo / Pocket, bottom product strip, blue tab, white radial motion lines.\nMain text: 咔嚓爽!\nSecondary text: 一按就出大片感\nAccent symbol: blue tab and white streaks crossing the lens.\nWardrobe/styling: realistic hands only, no brand marks.\nStyle fidelity anchors: dense product-ad banner, fisheye macro cave, warm textured foreground, oversized close product, huge slanted white Chinese type, black extrusion, top labels, bottom pack strip, blue accents, glossy commercial finish.\nSource content to avoid: cats, cat food, pet nutrition, source wording, source brand marks, and the exact source layout.\n\nUse a compressed social-ad composition with the camera centered and huge, headline slanted on the right, and popcorn pieces sharp in the foreground. Generate as a 4K ultra-high-resolution raster image.",
-      "prompt_9x16": "Create a 9:16 vertical image in the \"Warm Fisheye Product Impact Ad\" visual style.\n\nSubject: compact retro action camera with two human hands reaching in from the sides.\nAction: the camera jumps from a warm popcorn pile while one hand presses the shutter close to the lens.\nProp/Product: small teal pocket camera with a blank cream label, no logo.\nLocation: dark mini cinema snack counter, shot from inside a popcorn bucket.\nBackground: buttery popcorn pieces forming a thick border, warm brown shadows, top labels Creative / Photo / Pocket, blue callout tab, bottom camera-pack strip, white motion strokes.\nMain text: 咔嚓爽!\nSecondary text: 一按就出大片感\nAccent symbol: white speed lines and a blue label tab beside the camera.\nWardrobe/styling: hands only, clean casual styling, no jewelry or visible brand.\nStyle fidelity anchors: macro fisheye tunnel, crowded warm foreground frame, close cropped hero product, dense commercial hierarchy, huge white Chinese headline with black extrusion, tiny top labels, bottom strip, blue accents, glossy texture, motion lines.\nSource content to avoid: cats, cat food, pet products, original text, original brand identity, original pouch, and the source face arrangement.\n\nKeep the popcorn tactile and oversized at the corners, use warm commercial lighting and hard black type shadows, and make the camera feel deliciously close without copying the source content. Generate as a 4K ultra-high-resolution raster image."
+        "WARDROBE_STYLE": "realistic hands only, no brand marks."
+      }
     },
     {
       "case_name": "Citrus Soda Splash",
-      "variables": {
+      "values": {
         "SUBJECT": "frosty orange soda can and a splash-catching hand.",
         "SUBJECT_ACTION": "the can shoots through a wide citrus-and-crumb tunnel while droplets fly toward the fisheye lens.",
         "PRODUCT_OR_PROP": "unbranded orange soda can with a small blue side label and no logo.",
@@ -177,15 +166,12 @@
         "MAIN_TEXT": "橙不住!",
         "SECONDARY_TEXT": "冰爽气泡 一开就炸",
         "ACCENT_SYMBOL": "blue callout tab and white angled underline.",
-        "WARDROBE_STYLE": "one realistic hand, clean styling, no visible brand.",
-        "ASPECT_RATIO": "9:16 or 16:9"
-      },
-      "prompt_16x9": "Create a 16:9 horizontal image in the \"Warm Fisheye Product Impact Ad\" visual style.\n\nSubject: frosty orange soda can and a splash-catching hand.\nAction: the can shoots through a wide citrus-and-crumb tunnel while droplets fly toward the fisheye lens.\nProp/Product: unbranded orange soda can with a small blue side label and no logo.\nLocation: warm studio tabletop product set.\nBackground: orange slices and toasted crumbs filling every edge, dark amber vignette, top labels Creative / Drink / Spark, bottom product/caption strip, blue tab, white motion streaks.\nMain text: 橙不住!\nSecondary text: 冰爽气泡 一开就炸\nAccent symbol: blue callout tab and white angled underline.\nWardrobe/styling: one realistic hand, clean styling, no visible brand.\nStyle fidelity anchors: panoramic macro product cave, warm textured foreground ring, close cropped hero product, dense ad hierarchy, huge white Chinese display type with black extrusion, tiny top labels, product strip, blue accents, glossy texture, speed lines.\nSource content to avoid: cats, cat food, pet-food story, original copy, brand labels, source package, and source composition.\n\nKeep the headline huge and tilted on one side, the can centered and close, and the foreground objects forming a snack-like cave around the banner. Generate as a 4K ultra-high-resolution raster image.",
-      "prompt_9x16": "Create a 9:16 vertical image in the \"Warm Fisheye Product Impact Ad\" visual style.\n\nSubject: frosty orange soda can and a splash-catching hand.\nAction: the can rockets upward through orange slices and caramel crumbs while droplets streak toward the lens.\nProp/Product: unbranded orange soda can with a small blue side label and no logo.\nLocation: warm studio tabletop built like a citrus-and-crumb canyon.\nBackground: orange slices, toasted crumbs, and round candy pieces creating a thick foreground border, top labels Creative / Drink / Spark, bottom product strip, blue callout tab, white speed lines.\nMain text: 橙不住!\nSecondary text: 冰爽气泡 一开就炸\nAccent symbol: blue caption tab, white streaks, and quoted bottom copy.\nWardrobe/styling: one realistic hand in the lower foreground, no brand marks.\nStyle fidelity anchors: macro fisheye product pile, warm crowded border, hero product pressed close, huge white slanted Chinese type with black depth, top labels, bottom pack strip, blue accents, glossy high-contrast texture, motion lines.\nSource content to avoid: cats, cat food, kibble, pet-food packaging, source text, source brand marks, and three pet faces.\n\nMake the foreground slices oversized and tactile, keep the can sharply lit with condensation, and preserve the loud retail-ad layout. Generate as a 4K ultra-high-resolution raster image."
+        "WARDROBE_STYLE": "one realistic hand, clean styling, no visible brand."
+      }
     },
     {
       "case_name": "Pretzel Sneaker Dash",
-      "variables": {
+      "values": {
         "SUBJECT": "runner's sneaker sole and a compact sports snack pack.",
         "SUBJECT_ACTION": "the sneaker skids through a panoramic mini-pretzel tunnel while the snack pack pops toward the lens.",
         "PRODUCT_OR_PROP": "generic navy-and-white sports snack pack with no logo.",
@@ -194,12 +180,8 @@
         "MAIN_TEXT": "脆着跑!",
         "SECONDARY_TEXT": "轻装补能 咔啦开冲",
         "ACCENT_SYMBOL": "blue tab and angled white motion slash.",
-        "WARDROBE_STYLE": "athletic sock and logo-free sneaker, no recognizable brand stripe layout.",
-        "ASPECT_RATIO": "9:16 or 16:9"
-      },
-      "prompt_16x9": "Create a 16:9 horizontal image in the \"Warm Fisheye Product Impact Ad\" visual style.\n\nSubject: runner's sneaker sole and a compact sports snack pack.\nAction: the sneaker skids through a panoramic mini-pretzel tunnel while the snack pack pops toward the lens.\nProp/Product: generic navy-and-white sports snack pack with no logo.\nLocation: warm studio floor with dense mini pretzels and caramel shadows.\nBackground: pretzels filling every edge, dark warm vignette, top labels Creative / Sport / Crunch, bottom pack strip, blue callout tab, white speed lines.\nMain text: 脆着跑!\nSecondary text: 轻装补能 咔啦开冲\nAccent symbol: blue tab and angled white motion slash.\nWardrobe/styling: athletic sock and logo-free sneaker, no recognizable brand stripe layout.\nStyle fidelity anchors: horizontal macro fisheye banner, textured foreground cave, close hero product, dense ad layout, huge white slanted Chinese type with black extrusion, tiny top labels, bottom strip, blue accents, glossy high-contrast texture, motion lines.\nSource content to avoid: cats, cat food, pet-food packaging, original copy, original brand identity, source package, and three-face composition.\n\nUse a wide commercial thumbnail structure, huge tilted headline, crisp warm pretzel texture, and a close distorted sneaker and pack. Generate as a 4K ultra-high-resolution raster image.",
-      "prompt_9x16": "Create a 9:16 vertical image in the \"Warm Fisheye Product Impact Ad\" visual style.\n\nSubject: runner's sneaker sole and a compact sports snack pack.\nAction: the sneaker lands toward the lens as the snack pack bursts from a pile of mini pretzels.\nProp/Product: generic navy-and-white sports snack pack with no logo.\nLocation: warm studio floor filled with mini pretzels and dark caramel shadows.\nBackground: mini pretzels forming a thick cave border, top labels Creative / Sport / Crunch, bottom pack strip, blue callout tab, white radial speed lines.\nMain text: 脆着跑!\nSecondary text: 轻装补能 咔啦开冲\nAccent symbol: angled white motion slash and blue product tab.\nWardrobe/styling: athletic sock and sneaker with no brand marks or recognizable stripe layout.\nStyle fidelity anchors: vertical macro fisheye product cave, crowded warm foreground, oversized close hero, dense retail hierarchy, huge white slanted Chinese headline, heavy black shadow, top labels, bottom product strip, blue accents, glossy texture, motion lines.\nSource content to avoid: cats, cat food, pet nutrition, source words, source product pouch, source brand marks, and the original face layout.\n\nMake the sneaker and pack crop close to the viewer, keep the pretzels sharp and huge on the edges, and preserve the humorous high-impact ad feel. Generate as a 4K ultra-high-resolution raster image."
+        "WARDROBE_STYLE": "athletic sock and logo-free sneaker, no recognizable brand stripe layout."
+      }
     }
-  ],
-  "license": "CC BY 4.0"
+  ]
 }

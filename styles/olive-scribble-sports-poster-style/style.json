@@ -1,17 +1,9 @@
 {
   "style_name": "Olive Scribble Sports Poster Style",
   "style_slug": "olive-scribble-sports-poster-style",
-  "version": "2026.05.20",
-  "status": "stable",
-  "updated_at": "2026-05-20",
-  "summary": "A kinetic flat editorial illustration style built from off-white paper, large olive-green poster blocks, oversized action figures, rough black ink contours, red marker motion arcs, yellow-green dry-brush swaths, sparse debris, and handmade screenprint texture.",
-  "preview": {
-    "landscape": "preview-16x9.jpg",
-    "portrait": "preview-9x16.jpg"
-  },
-  "prompt_template": "Create a {ASPECT_RATIO} image in the \"Olive Scribble Sports Poster Style\" visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: {STYLE_FIDELITY_ANCHORS}\nSource content to avoid: {SOURCE_CONTENT_TO_AVOID}\n\nApply these style rules:\n- Build the poster from one dominant diagonal action subject, one prop, and one abstract olive or yellow-green block.\n- Use off-white paper ground, flat screenprint color slabs, heavy black ink silhouettes, chaotic scratch contours, red marker motion arcs, yellow-green dry-brush loops, and sparse diamonds or clipped debris.\n- Keep the setting shallow, abstract, and editorial rather than realistic or scene-heavy.\n- Use small rough hand-cut text only as a secondary poster accent, never as polished brand typography.\n- Preserve imperfect elongated anatomy, cropped limbs, raw brush texture, and handmade print misregistration.\n\nAvoid:\n- {NEGATIVE_PROMPT}\n\nImportant content rule: match the extracted style first, then change the source content. Use new subjects, new scene details, new props, and new text, while avoiding the original soccer/overhead-kick source content.",
-  "negative_prompt": "No soccer, no football, no ball, no overhead kick, no falling bicycle-kick pose, no stadium, no goal, no team badge, no brand mark, no watermark, no QR code, no clean vector polish, no realistic photograph, no 3D render, no glossy shading, no dense background, no manga panel style, no large polished headline typography.",
-  "variables": {
+  "style_version": "2026.05.20",
+  "style_summary": "A kinetic flat editorial illustration style built from off-white paper, large olive-green poster blocks, oversized action figures, rough black ink contours, red marker motion arcs, yellow-green dry-brush swaths, sparse debris, and handmade screenprint texture.",
+  "environment_variables": {
     "SUBJECT": "main action subject",
     "SUBJECT_ACTION": "dynamic action performed by the subject",
     "PRODUCT_OR_PROP": "simplified object, tool, sport prop, or product carried by the subject",
@@ -23,7 +15,8 @@
     "WARDROBE_STYLE": "flat color-block styling for clothing or gear",
     "STYLE_FIDELITY_ANCHORS": "Off-white paper ground with a large irregular olive or yellow-green block covering most of the background.; One oversized action subject placed diagonally across the composition.; Flat screenprint color areas with minimal shading and no smooth gradients.; Heavy black ink silhouettes, angular brush contours, and chaotic scratch lines.; Red marker arcs, arrows, and motion loops crossing the subject.; Yellow-green dry-brush swaths or spiral strokes behind the action.; Palette ratio led by off-white, olive green, black, white, and red, with tiny navy, tan, or orange accents.; Abstract poster space with shallow depth, not a realistic photographed environment.; Body shapes are elongated, compressed, and expressive rather than anatomically precise.; Sparse graphic debris: small diamonds, slashes, clipped rectangles, and ink flecks.; Text, when present, is small, rough, hand-cut, and secondary to the figure.; Finished handmade editorial sports illustration, not clean vector, manga, or 3D render.",
     "SOURCE_CONTENT_TO_AVOID": "Soccer or football as the main subject.; Overhead kick, bicycle kick, or falling soccer pose.; Soccer ball, goal, pitch markings, stadium scene, or team uniform copied from the source.; Red-and-white jersey plus blue shorts combination.; A ball floating above a raised leg.; The exact diagonal body silhouette, expression, costume, and story premise from the reference.; Watermark, signature, brand badge, league mark, or team logo.",
-    "ASPECT_RATIO": "9:16 or 16:9"
+    "ASPECT_RATIO": "9:16 or 16:9",
+    "NEGATIVE_PROMPT": "negative prompt constraints copied from the top-level negative_prompt field"
   },
   "style_fidelity_anchors": [
     "Off-white paper ground with a large irregular olive or yellow-green block covering most of the background.",
@@ -59,6 +52,13 @@
     "texture_and_finish": "Dry brush, rough ink, screenprint misregistration, torn edges, and paper grain.",
     "lighting": "No naturalistic lighting. Contrast comes from flat color collision and black-white ink cuts.",
     "mood": "Fast, raw, physical, sideline-drawn, editorial, tense, and graphic."
+  },
+  "image_treatment": {
+    "rendering_mode": "Flat screenprint and ink illustration.",
+    "edge_quality": "Rough brushed silhouettes, clipped paper-like color shapes, and scratchy line overlay.",
+    "texture": "Visible dry brush and paper grain with slight print misregistration.",
+    "shading": "Minimal. Use black, white, and color blocks rather than smooth tonal modeling.",
+    "finish": "Finished raster poster sample, not a draft sketch or procedural vector mockup."
   },
   "composition": {
     "primary_subject_scale": "60-80 percent of frame height or width depending on ratio.",
@@ -107,13 +107,6 @@
       "#b96a1e"
     ]
   },
-  "image_treatment": {
-    "rendering_mode": "Flat screenprint and ink illustration.",
-    "edge_quality": "Rough brushed silhouettes, clipped paper-like color shapes, and scratchy line overlay.",
-    "texture": "Visible dry brush and paper grain with slight print misregistration.",
-    "shading": "Minimal. Use black, white, and color blocks rather than smooth tonal modeling.",
-    "finish": "Finished raster poster sample, not a draft sketch or procedural vector mockup."
-  },
   "design_rules": [
     "Build the poster from one dominant diagonal action subject, one prop, and one abstract olive block.",
     "Use black contours and scratch lines to define anatomy and movement.",
@@ -136,10 +129,12 @@
     "Large polished typography that competes with the figure.",
     "Too many secondary subjects or props."
   ],
-  "example_cases": [
+  "prompt_template": "Create a {ASPECT_RATIO} image in the \"Olive Scribble Sports Poster Style\" visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: {STYLE_FIDELITY_ANCHORS}\nSource content to avoid: {SOURCE_CONTENT_TO_AVOID}\n\nApply these style rules:\n- Build the poster from one dominant diagonal action subject, one prop, and one abstract olive or yellow-green block.\n- Use off-white paper ground, flat screenprint color slabs, heavy black ink silhouettes, chaotic scratch contours, red marker motion arcs, yellow-green dry-brush loops, and sparse diamonds or clipped debris.\n- Keep the setting shallow, abstract, and editorial rather than realistic or scene-heavy.\n- Use small rough hand-cut text only as a secondary poster accent, never as polished brand typography.\n- Preserve imperfect elongated anatomy, cropped limbs, raw brush texture, and handmade print misregistration.\n\nAvoid:\n- {NEGATIVE_PROMPT}\n\nImportant content rule: match the extracted style first, then change the source content. Use new subjects, new scene details, new props, and new text, while avoiding the original soccer/overhead-kick source content.",
+  "negative_prompt": "No soccer, no football, no ball, no overhead kick, no falling bicycle-kick pose, no stadium, no goal, no team badge, no brand mark, no watermark, no QR code, no clean vector polish, no realistic photograph, no 3D render, no glossy shading, no dense background, no manga panel style, no large polished headline typography.",
+  "examples": [
     {
       "case_name": "Electric Skate Drop",
-      "variables": {
+      "values": {
         "SUBJECT": "street skateboarder",
         "SUBJECT_ACTION": "launching over a curb with knees tucked and one arm thrown back",
         "PRODUCT_OR_PROP": "black skateboard with white wheel slashes",
@@ -148,13 +143,12 @@
         "MAIN_TEXT": "CURB VOLT",
         "SECONDARY_TEXT": "drop drop",
         "ACCENT_SYMBOL": "red arrow loop",
-        "WARDROBE_STYLE": "navy shorts, white shirt, black shoes, small tan knee accent",
-        "ASPECT_RATIO": "9:16 or 16:9"
+        "WARDROBE_STYLE": "navy shorts, white shirt, black shoes, small tan knee accent"
       }
     },
     {
       "case_name": "River Paddle Snap",
-      "variables": {
+      "values": {
         "SUBJECT": "whitewater kayaker",
         "SUBJECT_ACTION": "snapping a paddle through a sharp turn",
         "PRODUCT_OR_PROP": "red paddle and simplified kayak shell",
@@ -163,13 +157,12 @@
         "MAIN_TEXT": "RIVER SNAP",
         "SECONDARY_TEXT": "hard left",
         "ACCENT_SYMBOL": "white slash diamonds",
-        "WARDROBE_STYLE": "black helmet, white vest, tan arms, orange kayak accent",
-        "ASPECT_RATIO": "9:16 or 16:9"
+        "WARDROBE_STYLE": "black helmet, white vest, tan arms, orange kayak accent"
       }
     },
     {
       "case_name": "Market Courier Turn",
-      "variables": {
+      "values": {
         "SUBJECT": "bike courier",
         "SUBJECT_ACTION": "leaning into a hard turn while gripping a messenger bag",
         "PRODUCT_OR_PROP": "angular bicycle frame and paper parcel",
@@ -178,13 +171,12 @@
         "MAIN_TEXT": "TURN CODE",
         "SECONDARY_TEXT": "rush rush",
         "ACCENT_SYMBOL": "small red square",
-        "WARDROBE_STYLE": "white jacket block, black pants, navy bag, red strap",
-        "ASPECT_RATIO": "9:16 or 16:9"
+        "WARDROBE_STYLE": "white jacket block, black pants, navy bag, red strap"
       }
     },
     {
       "case_name": "Climber Dyno Reach",
-      "variables": {
+      "values": {
         "SUBJECT": "indoor boulderer",
         "SUBJECT_ACTION": "leaping sideways toward a high hold with one leg kicked back",
         "PRODUCT_OR_PROP": "large abstract climbing holds",
@@ -193,10 +185,8 @@
         "MAIN_TEXT": "HOLD FAST",
         "SECONDARY_TEXT": "dyno line",
         "ACCENT_SYMBOL": "black slash cluster",
-        "WARDROBE_STYLE": "black tank, white chalk marks, tan arms, red shoe accents",
-        "ASPECT_RATIO": "9:16 or 16:9"
+        "WARDROBE_STYLE": "black tank, white chalk marks, tan arms, red shoe accents"
       }
     }
-  ],
-  "license": "CC BY 4.0"
+  ]
 }

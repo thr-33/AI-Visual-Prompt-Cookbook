@@ -1,15 +1,9 @@
 {
   "style_name": "Folded Diamond Perspective Type Poster Style",
   "style_slug": "folded-diamond-perspective-type-poster-style",
-  "version": "1.0.0",
-  "summary": "A bold minimalist editorial poster style using low-angle hero photography inside a diamond aperture, folded tan paper or canvas planes, and oversized white perspective typography printed across the lower surface.",
-  "preview": {
-    "landscape": "preview-16x9.jpg",
-    "portrait": "preview-9x16.jpg"
-  },
-  "prompt_template": "Create an image in folded-diamond-perspective-type-poster-style.\n\nAspect ratio: {ASPECT_RATIO}.\n\nScene: {SUBJECT} {SUBJECT_ACTION}, interacting with {PRODUCT_OR_PROP}, in {LOCATION}. Use {WARDROBE_STYLE}. Shoot the subject as a real-photo low-angle hero image with wide-lens foreshortening, strong sunlight, and a bright cyan sky or clean outdoor backdrop.\n\nLayout: place the photo inside a large rotated square diamond aperture in the upper half of a tactile folded tan paper or linen canvas surface. Include {BACKGROUND_ELEMENTS}. Create a deep central fold or crease running down from the diamond point into the lower poster.\n\nTypography: set the main headline \"{MAIN_TEXT}\" in enormous white ultra-bold condensed sans-serif type across the lower half. Make the type feel printed onto the folded surface, split by the central crease, distorted by perspective, cropped by the poster edges, and lightly textured by the paper grain. Add \"{SECONDARY_TEXT}\" only as tiny clean editorial microcopy using {ACCENT_SYMBOL}.\n\nMood and finish: bold minimalism, streetwear editorial, monumental confidence, warm tan cardstock texture, crisp sunlight, cyan sky contrast, soft shadows, printed-paper grain, sharp geometric photo crop. Avoid watermarks, usernames, QR codes, creator IDs, platform logos, and app marks.",
-  "negative_prompt": "busy collage, many photos, eye-level portrait, small headline, thin serif typography, playful rounded type, glossy 3D letters, neon gradients, corporate brochure, clean vector-only design, flat background with no paper grain, crowded secondary text, watermark, username, creator ID, QR code, platform logo, app interface marks",
-  "variables": {
+  "style_version": "1.0.0",
+  "style_summary": "A bold minimalist editorial poster style using low-angle hero photography inside a diamond aperture, folded tan paper or canvas planes, and oversized white perspective typography printed across the lower surface.",
+  "environment_variables": {
     "SUBJECT": "main person, athlete, dancer, model, musician, founder, maker, or product hero",
     "SUBJECT_ACTION": "standing over the camera, stepping forward, crouching above the viewer, reaching downward, jumping, holding a prop, or looking down with confidence",
     "PRODUCT_OR_PROP": "shoe, skateboard, basketball, camera, bag, bottle, instrument, notebook, tool, or featured product",
@@ -21,10 +15,91 @@
     "WARDROBE_STYLE": "monochrome streetwear, white denim, oversized shirt, athletic layers, minimal sneakers, or tonal editorial styling",
     "ASPECT_RATIO": "9:16 or 16:9"
   },
-  "example_cases": [
+  "style_fidelity_anchors": [
+    "Preserve the core visual identity: A bold minimalist editorial poster style using low-angle hero photography inside a diamond aperture, folded tan paper or canvas planes, and oversized white perspective typography printed across the lower surface.",
+    "Shoot the subject as a real-photo low-angle hero image with wide-lens foreshortening, strong sunlight, and a bright cyan sky or clean outdoor backdrop.",
+    "Layout: place the photo inside a large rotated square diamond aperture in the upper half of a tactile folded tan paper or linen canvas surface.",
+    "Typography: set MAIN_TEXT in enormous white ultra-bold condensed sans-serif type across the lower half.",
+    "Make the type feel printed onto the folded surface, split by the central crease, distorted by perspective, cropped by the poster edges, and lightly textured by the paper grain.",
+    "Mood and finish: bold minimalism, streetwear editorial, monumental confidence, warm tan cardstock texture, crisp sunlight, cyan sky contrast, soft shadows, printed-paper grain, sharp geometric photo crop.",
+    "Keep the same visual genre, density level, and rendering mode across new subjects.",
+    "Preserve the original balance between main subject, typography, decorative marks, and background texture."
+  ],
+  "source_content_to_avoid": [
+    "busy collage",
+    "many photos",
+    "eye-level portrait",
+    "small headline",
+    "thin serif typography",
+    "playful rounded type",
+    "glossy 3D letters",
+    "neon gradients",
+    "corporate brochure",
+    "clean vector-only design",
+    "flat background with no paper grain",
+    "crowded secondary text"
+  ],
+  "visual_deconstruction": {
+    "style_category": "A bold minimalist editorial poster style using low-angle hero photography inside a diamond aperture, folded tan paper or canvas planes, and oversized white perspective typography printed across the lower surface.",
+    "composition_logic": "A reusable poster/image system where the subject, prop, location, text, and accent variables change while the layout grammar remains fixed.",
+    "subject_treatment": "The subject is driven by SUBJECT and SUBJECT_ACTION, with wardrobe or visual treatment supplied by WARDROBE_STYLE.",
+    "background_system": "LOCATION and BACKGROUND_ELEMENTS provide the scene, texture, spatial cues, and secondary details without changing the style family.",
+    "type_and_graphics": "MAIN_TEXT, SECONDARY_TEXT, and ACCENT_SYMBOL control readable text, microcopy, stickers, marks, arrows, bursts, or other graphic accents.",
+    "content_boundary": "The negative prompt and source_content_to_avoid list prevent direct recreation of source subjects, marks, brands, watermarks, and story premises."
+  },
+  "image_treatment": {
+    "rendering_mode": "photographic collage",
+    "finish": "finished AI-image prompt output, not a wireframe, SVG, HTML mockup, or raw storyboard note",
+    "texture": "preserve the material, paper, grain, marker, photographic, or print texture described by the style summary and prompt_template",
+    "lighting": "keep the lighting behavior implied by the reference style rather than replacing it with a generic cinematic look"
+  },
+  "composition": {
+    "layout": "Keep the subject hierarchy, crop behavior, framing, and density described by the prompt_template.",
+    "subject": "Use SUBJECT and SUBJECT_ACTION as the primary visual anchor, scaled and positioned according to the style identity.",
+    "scene": "Use LOCATION and BACKGROUND_ELEMENTS for setting detail without changing the visual genre.",
+    "text": "Place MAIN_TEXT and SECONDARY_TEXT as designed graphic elements, not as long paragraphs."
+  },
+  "typography": {
+    "main_text": "MAIN_TEXT should be short, legible, and visually integrated with the poster or image system.",
+    "secondary_text": "SECONDARY_TEXT should read as small caption, label, route note, slogan, or microcopy.",
+    "style": "Match the typography behavior described by the style summary and prompt_template, including scale, distortion, texture, and placement."
+  },
+  "color_palette": {
+    "palette_behavior": "Use the dominant colors, contrast rhythm, and accent-color logic implied by the style summary.",
+    "background": "Keep the background color family consistent with the reference style.",
+    "accents": "Use ACCENT_SYMBOL and graphic marks to carry small high-contrast color moments."
+  },
+  "design_rules": [
+    "Shoot the subject as a real-photo low-angle hero image with wide-lens foreshortening, strong sunlight, and a bright cyan sky or clean outdoor backdrop.",
+    "Layout: place the photo inside a large rotated square diamond aperture in the upper half of a tactile folded tan paper or linen canvas surface.",
+    "Include PRODUCT_OR_PROP as a clear foreground object or visual anchor.",
+    "Typography: set MAIN_TEXT in enormous white ultra-bold condensed sans-serif type across the lower half.",
+    "Make the type feel printed onto the folded surface, split by the central crease, distorted by perspective, cropped by the poster edges, and lightly textured by the paper grain.",
+    "Add SECONDARY_TEXT only as tiny clean editorial microcopy, using ACCENT_SYMBOL sparingly for small graphic emphasis.",
+    "Mood and finish: bold minimalism, streetwear editorial, monumental confidence, warm tan cardstock texture, crisp sunlight, cyan sky contrast, soft shadows, printed-paper grain, sharp geometric photo crop."
+  ],
+  "do": [
+    "Replace subjects, props, locations, text, and story details through examples.values.",
+    "Keep prompt_template placeholders declared in environment_variables.",
+    "Preserve the style_fidelity_anchors when adapting the JSON to a new image request.",
+    "Use short, readable text values for MAIN_TEXT and SECONDARY_TEXT."
+  ],
+  "avoid": [
+    "busy collage",
+    "many photos",
+    "eye-level portrait",
+    "small headline",
+    "thin serif typography",
+    "playful rounded type",
+    "glossy 3D letters",
+    "neon gradients"
+  ],
+  "prompt_template": "Create an image in folded-diamond-perspective-type-poster-style.\n\nAspect ratio: {ASPECT_RATIO}.\n\nScene: {SUBJECT} {SUBJECT_ACTION}, interacting with {PRODUCT_OR_PROP}, in {LOCATION}. Use {WARDROBE_STYLE}. Shoot the subject as a real-photo low-angle hero image with wide-lens foreshortening, strong sunlight, and a bright cyan sky or clean outdoor backdrop.\n\nLayout: place the photo inside a large rotated square diamond aperture in the upper half of a tactile folded tan paper or linen canvas surface. Include {BACKGROUND_ELEMENTS}. Create a deep central fold or crease running down from the diamond point into the lower poster.\n\nTypography: set the main headline \"{MAIN_TEXT}\" in enormous white ultra-bold condensed sans-serif type across the lower half. Make the type feel printed onto the folded surface, split by the central crease, distorted by perspective, cropped by the poster edges, and lightly textured by the paper grain. Add \"{SECONDARY_TEXT}\" only as tiny clean editorial microcopy using {ACCENT_SYMBOL}.\n\nMood and finish: bold minimalism, streetwear editorial, monumental confidence, warm tan cardstock texture, crisp sunlight, cyan sky contrast, soft shadows, printed-paper grain, sharp geometric photo crop. Avoid watermarks, usernames, QR codes, creator IDs, platform logos, and app marks.",
+  "negative_prompt": "busy collage, many photos, eye-level portrait, small headline, thin serif typography, playful rounded type, glossy 3D letters, neon gradients, corporate brochure, clean vector-only design, flat background with no paper grain, crowded secondary text, watermark, username, creator ID, QR code, platform logo, app interface marks",
+  "examples": [
     {
       "case_name": "Court Rise",
-      "variables": {
+      "values": {
         "SUBJECT": "a young basketball player",
         "SUBJECT_ACTION": "stepping over the camera while holding a ball low",
         "PRODUCT_OR_PROP": "basketball and white sneakers",
@@ -33,15 +108,12 @@
         "MAIN_TEXT": "RISE UP",
         "SECONDARY_TEXT": "bold motion / daily practice",
         "ACCENT_SYMBOL": "a thin vertical separator",
-        "WARDROBE_STYLE": "white mesh jersey, cream track pants, and minimal high-top sneakers",
-        "ASPECT_RATIO": "9:16 or 16:9"
-      },
-      "prompt_16x9": "Create a horizontal 16:9 image in folded-diamond-perspective-type-poster-style. Scene: a young basketball player stepping over the camera while holding a ball low, wearing a white mesh jersey, cream track pants, and minimal high-top sneakers, on an outdoor court under clear sky. Shoot the subject as a real-photo low-angle hero image with wide-lens foreshortening, strong sunlight, and bright cyan sky. Place the photo inside a large rotated square diamond aperture near the upper center of a tactile folded tan canvas paper surface. Spread the folded planes wide across the frame with a central crease, warm shadows, and subtle woven grain. Set the headline \"RISE UP\" in enormous white ultra-bold condensed sans-serif type across the lower half and right side, printed onto the folded planes, split by the crease, distorted by perspective, and cropped by the frame edges. Add tiny clean microcopy reading \"bold motion / daily practice\" with a thin vertical separator. Bold minimalism, streetwear sports editorial, monumental confidence, printed-paper texture. Avoid watermarks, usernames, QR codes, creator IDs, platform logos, and app marks.",
-      "prompt_9x16": "Create a vertical 9:16 image in folded-diamond-perspective-type-poster-style. Scene: a young basketball player stepping over the camera while holding a ball low, wearing a white mesh jersey, cream track pants, and minimal high-top sneakers, on an outdoor court under clear sky. Shoot the subject as a real-photo low-angle hero image with wide-lens foreshortening, strong sunlight, and bright cyan sky. Place the photo inside a large rotated square diamond aperture in the upper half of a tactile folded tan canvas paper surface. Include a central crease dropping from the diamond point, warm shadows, and subtle woven grain. Set the headline \"RISE UP\" in enormous white ultra-bold condensed sans-serif type across the lower half, printed onto the folded planes, split by the crease, distorted by perspective, and cropped by the poster edges. Add tiny clean microcopy reading \"bold motion / daily practice\" with a thin vertical separator. Bold minimalism, streetwear sports editorial, monumental confidence, printed-paper texture. Avoid watermarks, usernames, QR codes, creator IDs, platform logos, and app marks."
+        "WARDROBE_STYLE": "white mesh jersey, cream track pants, and minimal high-top sneakers"
+      }
     },
     {
       "case_name": "Skate Height",
-      "variables": {
+      "values": {
         "SUBJECT": "a street skater",
         "SUBJECT_ACTION": "crouching above the viewer with one shoe close to the lens",
         "PRODUCT_OR_PROP": "a skateboard deck",
@@ -50,15 +122,12 @@
         "MAIN_TEXT": "STAY HIGH",
         "SECONDARY_TEXT": "street balance / clear focus",
         "ACCENT_SYMBOL": "a tiny dot and slash",
-        "WARDROBE_STYLE": "oversized white tee, washed denim, and dark skate shoes",
-        "ASPECT_RATIO": "9:16 or 16:9"
-      },
-      "prompt_16x9": "Create a horizontal 16:9 image in folded-diamond-perspective-type-poster-style. Scene: a street skater crouching above the viewer with one shoe close to the lens, holding a skateboard deck, wearing an oversized white tee, washed denim, and dark skate shoes, at a sunlit skate spot. Shoot the subject as a real-photo low-angle hero image with wide-lens foreshortening, hard daylight, and bright cyan sky. Place the photo inside a large rotated diamond aperture in the upper-left to upper-center of a rough tan cardstock poster. Include wide folded planes, a central crease, printed grain, and soft edge shadow. Set the headline \"STAY HIGH\" in enormous white ultra-bold condensed sans-serif type across the lower half, printed onto the folded surface, split by the crease, distorted by perspective, and cropped by the frame edges. Add tiny clean microcopy reading \"street balance / clear focus\" with a tiny dot and slash. Bold minimalism, streetwear editorial, tactile paper grain. Avoid watermarks, usernames, QR codes, creator IDs, platform logos, and app marks.",
-      "prompt_9x16": "Create a vertical 9:16 image in folded-diamond-perspective-type-poster-style. Scene: a street skater crouching above the viewer with one shoe close to the lens, holding a skateboard deck, wearing an oversized white tee, washed denim, and dark skate shoes, at a sunlit skate spot. Shoot the subject as a real-photo low-angle hero image with wide-lens foreshortening, hard daylight, and bright cyan sky. Place the photo inside a large rotated diamond aperture in the upper half of a rough tan cardstock poster. Include folded planes, a central crease dropping from the diamond, printed grain, and soft edge shadow. Set the headline \"STAY HIGH\" in enormous white ultra-bold condensed sans-serif type across the lower half, printed onto the folded surface, split by the crease, distorted by perspective, and cropped by the poster edges. Add tiny clean microcopy reading \"street balance / clear focus\" with a tiny dot and slash. Bold minimalism, streetwear editorial, tactile paper grain. Avoid watermarks, usernames, QR codes, creator IDs, platform logos, and app marks."
+        "WARDROBE_STYLE": "oversized white tee, washed denim, and dark skate shoes"
+      }
     },
     {
       "case_name": "Rooftop Signal",
-      "variables": {
+      "values": {
         "SUBJECT": "a young photographer",
         "SUBJECT_ACTION": "leaning over the camera and pointing a compact camera downward",
         "PRODUCT_OR_PROP": "a compact camera",
@@ -67,15 +136,12 @@
         "MAIN_TEXT": "LOOK UP",
         "SECONDARY_TEXT": "small frame / big view",
         "ACCENT_SYMBOL": "a minimal horizontal rule",
-        "WARDROBE_STYLE": "white overshirt, loose ivory trousers, and a simple black strap",
-        "ASPECT_RATIO": "9:16 or 16:9"
-      },
-      "prompt_16x9": "Create a horizontal 16:9 image in folded-diamond-perspective-type-poster-style. Scene: a young photographer leaning over the camera and pointing a compact camera downward, wearing a white overshirt, loose ivory trousers, and a simple black strap, on a clean rooftop with open blue sky. Shoot the subject as a real-photo low-angle hero image with wide-lens foreshortening, hard sunlight, and crisp cyan sky. Place the photo inside a large rotated square diamond aperture near the upper center of a beige linen-textured poster surface. Include broad folded planes, a strong center fold, shadowed hinge, diamond window, and fine paper grain. Set the headline \"LOOK UP\" in enormous white ultra-bold condensed sans-serif type across the lower half and right side, printed onto the folded planes, split by the central fold, distorted by perspective, and cropped by the frame edges. Add tiny clean microcopy reading \"small frame / big view\" with a minimal horizontal rule. Bold minimalism, editorial photography, monumental confidence, tactile finish. Avoid watermarks, usernames, QR codes, creator IDs, platform logos, and app marks.",
-      "prompt_9x16": "Create a vertical 9:16 image in folded-diamond-perspective-type-poster-style. Scene: a young photographer leaning over the camera and pointing a compact camera downward, wearing a white overshirt, loose ivory trousers, and a simple black strap, on a clean rooftop with open blue sky. Shoot the subject as a real-photo low-angle hero image with wide-lens foreshortening, hard sunlight, and crisp cyan sky. Place the photo inside a large rotated square diamond aperture in the upper half of a beige linen-textured poster surface. Include a strong center fold, shadowed hinge, diamond window, and fine paper grain. Set the headline \"LOOK UP\" in enormous white ultra-bold condensed sans-serif type across the lower half, printed onto the folded planes, split by the central fold, distorted by perspective, and cropped by the poster edges. Add tiny clean microcopy reading \"small frame / big view\" with a minimal horizontal rule. Bold minimalism, editorial photography, monumental confidence, tactile finish. Avoid watermarks, usernames, QR codes, creator IDs, platform logos, and app marks."
+        "WARDROBE_STYLE": "white overshirt, loose ivory trousers, and a simple black strap"
+      }
     },
     {
       "case_name": "Desert Step",
-      "variables": {
+      "values": {
         "SUBJECT": "an outdoor runner",
         "SUBJECT_ACTION": "stepping forward above the camera with one sole exaggerated in foreground",
         "PRODUCT_OR_PROP": "a trail shoe and water bottle",
@@ -84,16 +150,8 @@
         "MAIN_TEXT": "GO FAR",
         "SECONDARY_TEXT": "steady pace / open air",
         "ACCENT_SYMBOL": "a small geometric marker",
-        "WARDROBE_STYLE": "white windbreaker, beige running shorts, and cream trail shoes",
-        "ASPECT_RATIO": "9:16 or 16:9"
-      },
-      "prompt_16x9": "Create a horizontal 16:9 image in folded-diamond-perspective-type-poster-style. Scene: an outdoor runner stepping forward above the camera with one sole exaggerated in foreground, carrying a water bottle, wearing a white windbreaker, beige running shorts, and cream trail shoes, on a bright desert road. Shoot the subject as a real-photo low-angle hero image with wide-lens foreshortening, hard daylight, and clear cyan sky. Place the photo inside a large rotated diamond aperture near the upper center of a folded kraft paper poster. Include broad folded planes, canvas grain, central crease, warm edge shadow, and printed texture. Set the headline \"GO FAR\" in enormous white ultra-bold condensed sans-serif type across the lower half, printed onto the folded planes, split by the central crease, distorted by perspective, and cropped by the frame edges. Add tiny clean microcopy reading \"steady pace / open air\" with a small geometric marker. Bold minimalism, athletic editorial confidence, tactile paper surface. Avoid watermarks, usernames, QR codes, creator IDs, platform logos, and app marks.",
-      "prompt_9x16": "Create a vertical 9:16 image in folded-diamond-perspective-type-poster-style. Scene: an outdoor runner stepping forward above the camera with one sole exaggerated in foreground, carrying a water bottle, wearing a white windbreaker, beige running shorts, and cream trail shoes, on a bright desert road. Shoot the subject as a real-photo low-angle hero image with wide-lens foreshortening, hard daylight, and clear cyan sky. Place the photo inside a large rotated diamond aperture in the upper half of a folded kraft paper poster. Include canvas grain, central crease, warm edge shadow, and printed texture. Set the headline \"GO FAR\" in enormous white ultra-bold condensed sans-serif type across the lower half, printed onto the folded planes, split by the central crease, distorted by perspective, and cropped by the poster edges. Add tiny clean microcopy reading \"steady pace / open air\" with a small geometric marker. Bold minimalism, athletic editorial confidence, tactile paper surface. Avoid watermarks, usernames, QR codes, creator IDs, platform logos, and app marks."
+        "WARDROBE_STYLE": "white windbreaker, beige running shorts, and cream trail shoes"
+      }
     }
-  ],
-  "related_styles": [],
-  "license": "CC BY 4.0",
-  "source": {
-    "original_folder": "folded-diamond-perspective-type-poster-style"
-  }
+  ]
 }
