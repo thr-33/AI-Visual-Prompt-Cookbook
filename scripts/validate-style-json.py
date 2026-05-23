@@ -130,7 +130,12 @@ class ErrorCollector:
 
 def load_json(path: Path, errors: ErrorCollector) -> dict[str, Any] | None:
     try:
-        data = json.loads(path.read_text(encoding="utf-8"))
+        raw = path.read_text(encoding="utf-8")
+    except OSError as exc:
+        errors.add(f"{path}: I/O error: {exc}")
+        return None
+    try:
+        data = json.loads(raw)
     except json.JSONDecodeError as exc:
         errors.add(f"{path}: invalid JSON: {exc}")
         return None
@@ -213,6 +218,8 @@ def validate_style_file(style_json: Path, errors: ErrorCollector) -> None:
         value = data.get(field)
         if not isinstance(value, list):
             errors.add(f"{field} must be a list")
+        elif any(not isinstance(item, str) for item in value):
+            errors.add(f"{field} entries must all be strings")
         elif len(value) < min_length:
             errors.add(f"{field} has too few entries")
         elif len(value) != len(set(value)):
