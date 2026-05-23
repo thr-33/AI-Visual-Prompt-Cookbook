@@ -1,17 +1,9 @@
 {
   "style_name": "Blue HUD Macro Creator Tech Poster",
   "style_slug": "blue-hud-macro-product-poster",
-  "version": "2026.05.22",
-  "status": "stable",
-  "updated_at": "2026-05-22",
-  "summary": "A high-density blue creator-tech advertisement style built around macro 3D hardware heroes, oversized ribbed gloves, electric-blue HUD panels, massive condensed typography, glossy glass cards, and one warm gold performance badge.",
-  "preview": {
-    "landscape": "preview-16x9.jpg",
-    "portrait": "preview-9x16.jpg"
-  },
-  "prompt_template": "Create a {ASPECT_RATIO} image in the \"Blue HUD Macro Creator Tech Poster\" visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: {STYLE_FIDELITY_ANCHORS}\nSource content to avoid: {SOURCE_CONTENT_TO_AVOID}\n\nApply these style rules:\n- Macro 3D creator-tech product hero, large and tilted, physically framed by oversized ribbed gloves or striped synthetic fingers cropped by the frame.\n- Cold electric-blue and deep navy technology background with diagonal light streaks, faint grid lines, mist, bloom, and glass HUD panels.\n- Large extra-bold condensed all-caps headline in white or icy gray, cropped or partly occluded behind the product.\n- Translucent rounded feature cards with radial meters, pill bars, small icons, and compact technical labels.\n- One warm gold or amber performance badge, used as the only major warm contrast accent.\n- Glossy plastic, rubber, glass, brushed metal, beveled product edges, cyan rim light, and dramatic black shadows.\n- Dense commercial product poster hierarchy with overlapping product, gloves, type, badges, and interface graphics.\n- Use real-market creator hardware categories as inspiration only; do not render real brand marks or exact product replicas.\n\nAvoid:\n- {NEGATIVE_PROMPT}\n\nImportant content rule: match the extracted style first, then change the exact source content. Product categories may be camera-adjacent when requested, but all outputs must stay brandless, non-identical, and newly worded.",
-  "negative_prompt": "No real brand logos, no DJI, no Osmo, no official product names, no exact product replica, no copied trade dress, no source Cyrillic text, no exact 4K ULTRA HD badge, no watermarks, no QR codes, no usernames, no platform UI, no flat vector style, no hand-drawn comic style, no minimal white-background catalog photo, no low-density layout, no copied source text, no copied source product silhouette.",
-  "variables": {
+  "style_version": "2026.05.22",
+  "style_summary": "A high-density blue creator-tech advertisement style built around macro 3D hardware heroes, oversized ribbed gloves, electric-blue HUD panels, massive condensed typography, glossy glass cards, and one warm gold performance badge.",
+  "environment_variables": {
     "SUBJECT": "main creator-tech product or object being promoted",
     "SUBJECT_ACTION": "how the product is held, presented, activated, or inspected",
     "PRODUCT_OR_PROP": "object, product, or prop",
@@ -24,16 +16,6 @@
     "STYLE_FIDELITY_ANCHORS": "observable style traits that must remain visible",
     "SOURCE_CONTENT_TO_AVOID": "literal source content that generated samples must not recreate",
     "ASPECT_RATIO": "9:16 or 16:9"
-  },
-  "product_selection_strategy": {
-    "principle": "Use strong real-market creator hardware as category anchors, then render brandless non-identical products for reusable samples.",
-    "market_references": [
-      "Pocket gimbal camera class, inspired by the appeal of DJI Osmo Pocket 3",
-      "Flagship rugged action camera class, inspired by the appeal of DJI Osmo Action 5 Pro",
-      "Outdoor dive action camera class, inspired by the appeal of DJI Osmo Action 4",
-      "Mini wireless creator microphone class, inspired by the appeal of DJI Mic Mini"
-    ],
-    "rendering_rule": "Do not place real product names, DJI, Osmo, logos, exact official silhouettes, or copied trade dress in the generated samples."
   },
   "style_fidelity_anchors": [
     "Macro product-hero composition with the object large, tilted, and centered or slightly off-center, filling the frame.",
@@ -71,6 +53,12 @@
     "lighting": "Directional rim lights from upper left and cyan side glows, deep shadows, bright specular highlights, mild lens flare and atmospheric blue haze.",
     "mood": "Futuristic creator-product launch, technical, premium, feature-dense, dramatic, and tactile."
   },
+  "image_treatment": {
+    "rendering_mode": "polished 3D product render with photoreal material cues",
+    "surface_quality": "glossy screen glass, matte rubber, brushed plastic, beveled edges, specular rim highlights",
+    "post_processing": "blue bloom, subtle haze, mild lens flare, shallow depth, crisp product focus, compressed poster contrast",
+    "texture": "fine digital grain and soft glow rather than paper or print texture"
+  },
   "composition": {
     "layout_density": "high",
     "product_scale": "dominant macro object, 45-65 percent of frame",
@@ -106,12 +94,6 @@
     ],
     "proportions": "80 percent blue and black, 15 percent white or icy typography, 5 percent warm accent"
   },
-  "image_treatment": {
-    "rendering_mode": "polished 3D product render with photoreal material cues",
-    "surface_quality": "glossy screen glass, matte rubber, brushed plastic, beveled edges, specular rim highlights",
-    "post_processing": "blue bloom, subtle haze, mild lens flare, shallow depth, crisp product focus, compressed poster contrast",
-    "texture": "fine digital grain and soft glow rather than paper or print texture"
-  },
   "design_rules": [
     "Keep the product macro, tactile, and physically framed by ribbed glove forms.",
     "Use creator hardware categories with proven product-market appeal, but render them as brandless non-identical designs.",
@@ -137,51 +119,48 @@
     "Do not turn the style into flat vector art, a simple UI mockup, a clean catalog photo, or a sparse minimal poster.",
     "Do not use the same source layout verbatim."
   ],
-  "example_cases": [
+  "prompt_template": "Create a {ASPECT_RATIO} image in the \"Blue HUD Macro Creator Tech Poster\" visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: {STYLE_FIDELITY_ANCHORS}\nSource content to avoid: {SOURCE_CONTENT_TO_AVOID}\n\nApply these style rules:\n- Macro 3D creator-tech product hero, large and tilted, physically framed by oversized ribbed gloves or striped synthetic fingers cropped by the frame.\n- Cold electric-blue and deep navy technology background with diagonal light streaks, faint grid lines, mist, bloom, and glass HUD panels.\n- Large extra-bold condensed all-caps headline in white or icy gray, cropped or partly occluded behind the product.\n- Translucent rounded feature cards with radial meters, pill bars, small icons, and compact technical labels.\n- One warm gold or amber performance badge, used as the only major warm contrast accent.\n- Glossy plastic, rubber, glass, brushed metal, beveled product edges, cyan rim light, and dramatic black shadows.\n- Dense commercial product poster hierarchy with overlapping product, gloves, type, badges, and interface graphics.\n- Use real-market creator hardware categories as inspiration only; do not render real brand marks or exact product replicas.\n\nAvoid:\n- {NEGATIVE_PROMPT}\n\nImportant content rule: match the extracted style first, then change the exact source content. Product categories may be camera-adjacent when requested, but all outputs must stay brandless, non-identical, and newly worded.",
+  "negative_prompt": "No real brand logos, no DJI, no Osmo, no official product names, no exact product replica, no copied trade dress, no source Cyrillic text, no exact 4K ULTRA HD badge, no watermarks, no QR codes, no usernames, no platform UI, no flat vector style, no hand-drawn comic style, no minimal white-background catalog photo, no low-density layout, no copied source text, no copied source product silhouette.",
+  "examples": [
     {
       "case_name": "Pocket Creator Camera",
-      "variables": {
+      "values": {
         "SUBJECT": "brandless premium pocket gimbal creator camera with tall black handle, rotating square touch screen, tiny stabilized camera head, teal lens glow, rubberized grip, and beveled metal accents",
         "SUBJECT_ACTION": "oversized ribbed blue-black gloves reveal the device as a launch hero product",
         "PRODUCT_OR_PROP": "compact pocket creator camera with generic design, no logo, no printed brand name, no official product geometry",
         "MAIN_TEXT": "POCKET",
-        "SECONDARY_TEXT": "ROTATE VIEW, TRACK MODE, NIGHT CORE",
-        "ASPECT_RATIO": "9:16 or 16:9"
+        "SECONDARY_TEXT": "ROTATE VIEW, TRACK MODE, NIGHT CORE"
       }
     },
     {
       "case_name": "Action 5 Pro Class Camera",
-      "variables": {
+      "values": {
         "SUBJECT": "brandless flagship rugged action camera with circular lens ring, front status screen, black rubber armor, side latch, teal recording indicator, and beveled frame",
         "SUBJECT_ACTION": "ribbed gloves hold the action camera diagonally as its screen glows",
         "PRODUCT_OR_PROP": "pro action camera with generic design, no logo, no official product geometry",
         "MAIN_TEXT": "ACTION",
-        "SECONDARY_TEXT": "DUAL SCREEN, LOW LIGHT, HORIZON LOCK",
-        "ASPECT_RATIO": "9:16 or 16:9"
+        "SECONDARY_TEXT": "DUAL SCREEN, LOW LIGHT, HORIZON LOCK"
       }
     },
     {
       "case_name": "Action 4 Dive Class Camera",
-      "variables": {
+      "values": {
         "SUBJECT": "brandless outdoor dive action camera in compact waterproof housing with chunky lens glass, side latch, pressure-seal ring, black rubber corners, water droplets, and tiny orange mode button",
         "SUBJECT_ACTION": "oversized ribbed gloves lift the camera from a blue misty splash",
         "PRODUCT_OR_PROP": "waterproof action camera with generic design, no logo, no official product geometry",
         "MAIN_TEXT": "DIVE",
-        "SECONDARY_TEXT": "DEEP SEAL, COLD READY, WIDE HDR",
-        "ASPECT_RATIO": "9:16 or 16:9"
+        "SECONDARY_TEXT": "DEEP SEAL, COLD READY, WIDE HDR"
       }
     },
     {
       "case_name": "Creator Mic Mini Class",
-      "variables": {
+      "values": {
         "SUBJECT": "brandless mini wireless creator microphone kit with tiny square mic transmitter, rounded charging case, black mesh grille, magnetic clip, teal audio-level strip, and small orange record button",
         "SUBJECT_ACTION": "ribbed gloves present the charging case while the mic module floats forward with glowing audio rings",
         "PRODUCT_OR_PROP": "compact wireless microphone kit with generic design, no logo, no official product geometry",
         "MAIN_TEXT": "AUDIO",
-        "SECONDARY_TEXT": "CLEAR VOICE, MINI CLIP, SAFE TRACK",
-        "ASPECT_RATIO": "9:16 or 16:9"
+        "SECONDARY_TEXT": "CLEAR VOICE, MINI CLIP, SAFE TRACK"
       }
     }
-  ],
-  "license": "CC BY 4.0"
+  ]
 }

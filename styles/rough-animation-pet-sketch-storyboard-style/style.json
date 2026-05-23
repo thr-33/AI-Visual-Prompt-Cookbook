@@ -1,17 +1,9 @@
 {
   "style_name": "Rough Animation Pet Sketch Storyboard Style",
   "style_slug": "rough-animation-pet-sketch-storyboard-style",
-  "version": "2026.05.15",
-  "status": "stable",
-  "updated_at": "2026-05-15",
-  "summary": "A loose animation development sketch style for comic pet scenes, built from warm beige paper, red-brown construction lines, scratchy dark burgundy contours, semi-transparent color wash, simple room props, and exaggerated animal expressions.",
-  "preview": {
-    "landscape": "preview-16x9.jpg",
-    "portrait": "preview-9x16.jpg"
-  },
-  "prompt_template": "Create a {ASPECT_RATIO} image in the \"Rough Animation Pet Sketch Storyboard\" style.\n\nSubject: {SUBJECT}.\nSubject action: {SUBJECT_ACTION}.\nProduct or prop: {PRODUCT_OR_PROP}.\nLocation: {LOCATION}.\nBackground elements: {BACKGROUND_ELEMENTS}.\nMain text: {MAIN_TEXT}.\nSecondary text: {SECONDARY_TEXT}.\nAccent symbol: {ACCENT_SYMBOL}.\nWardrobe or visual styling: {WARDROBE_STYLE}.\n\nUse the reference only as a style reference, not as a scene to copy. Preserve the visual language: warm beige paper, loose red-brown construction lines, scratchy dark burgundy contour strokes, semi-transparent watercolor-like color wash, rough animation storyboard finish, lightly sketched interior background, exaggerated original pet expressions, huge oval eyes, tiny pupils, visible correction strokes, and one clear comic prop-driven beat.\n\nStage the scene like an animation story artist frame. Keep one character in an extreme emotional pose and another character in a contrasting deadpan or suspicious reaction. Make the foreground prop explain the joke. Leave sketch marks, motion ticks, crumbs, rough shadows, and unfinished room lines visible. Do not include platform UI, watermarks, creator IDs, logos, QR codes, app buttons, or copied characters.",
-  "negative_prompt": "watermark, username, platform logo, app UI, button overlay, QR code, creator signature, brand logo, exact reference characters, copied franchise character, polished vector art, clean corporate mascot, 3D render, photorealistic pet photo, airbrushed fur, hyperreal lighting, glossy toy look, anime cel shading, dense readable signage, perfect typography, cold neon palette, dark horror mood, violent scene, flat empty background, overfinished lineart",
-  "variables": {
+  "style_version": "2026.05.15",
+  "style_summary": "A loose animation development sketch style for comic pet scenes, built from warm beige paper, red-brown construction lines, scratchy dark burgundy contours, semi-transparent color wash, simple room props, and exaggerated animal expressions.",
+  "environment_variables": {
     "SUBJECT": "main pet, animal character, mascot pair, or expressive creature group",
     "SUBJECT_ACTION": "main comic action or emotional beat, such as begging, guarding, panicking, judging, leaping, chewing, or reacting",
     "PRODUCT_OR_PROP": "foreground object, food bowl, toy, snack, remote, parcel, cup, blanket, cake, or other prop that explains the joke",
@@ -23,13 +15,7 @@
     "WARDROBE_STYLE": "optional collar, scarf, tiny tag, apron, raincoat, party cone, or simple accessory; keep it sketchy and original",
     "ASPECT_RATIO": "9:16 vertical storyboard poster or 16:9 horizontal animation-board crop"
   },
-  "palette": {
-    "paper_and_light": ["warm beige", "cream", "pale peach", "soft tan"],
-    "linework": ["red-brown pencil", "dark burgundy ink", "nearly black brown"],
-    "character_wash": ["muted gray-blue", "warm cream", "pale yellow", "peach blush", "soft pink"],
-    "prop_accents": ["orange food", "golden snack", "rust red", "warm ochre"]
-  },
-  "composition_rules": {
+  "composition": {
     "vertical_9x16": "Use a tall storyboard poster crop. Stack the expressive character above or beside the prop, keep the reaction character low in the foreground, and let tails, ears, shelves, or background lines crop near the frame edges.",
     "horizontal_16x9": "Use a wide animation-board crop. Spread the reaction character and expressive character across the frame with the prop between them, leaving warm sketched room background visible behind.",
     "layer_order": [
@@ -41,7 +27,33 @@
       "foreground crumbs, motion ticks, stress marks, sparks, and rough shadows"
     ]
   },
-  "style_rules": [
+  "color_palette": {
+    "paper_and_light": [
+      "warm beige",
+      "cream",
+      "pale peach",
+      "soft tan"
+    ],
+    "linework": [
+      "red-brown pencil",
+      "dark burgundy ink",
+      "nearly black brown"
+    ],
+    "character_wash": [
+      "muted gray-blue",
+      "warm cream",
+      "pale yellow",
+      "peach blush",
+      "soft pink"
+    ],
+    "prop_accents": [
+      "orange food",
+      "golden snack",
+      "rust red",
+      "warm ochre"
+    ]
+  },
+  "design_rules": [
     "Make the image read as an animation development frame rather than a finished clean cartoon.",
     "Keep red-brown construction lines visible on both characters and background.",
     "Use one foreground prop to explain the comic situation.",
@@ -52,11 +64,12 @@
     "Keep backgrounds warm, pale, lightly sketched, and secondary.",
     "Use original characters and avoid platform or watermark elements."
   ],
-  "usage_note": "Copy this JSON into an LLM image workflow and replace the variables while keeping the rough animation pet sketch storyboard system locked.",
-  "example_cases": [
+  "prompt_template": "Create a {ASPECT_RATIO} image in the \"Rough Animation Pet Sketch Storyboard\" style.\n\nSubject: {SUBJECT}.\nSubject action: {SUBJECT_ACTION}.\nProduct or prop: {PRODUCT_OR_PROP}.\nLocation: {LOCATION}.\nBackground elements: {BACKGROUND_ELEMENTS}.\nMain text: {MAIN_TEXT}.\nSecondary text: {SECONDARY_TEXT}.\nAccent symbol: {ACCENT_SYMBOL}.\nWardrobe or visual styling: {WARDROBE_STYLE}.\n\nUse the reference only as a style reference, not as a scene to copy. Preserve the visual language: warm beige paper, loose red-brown construction lines, scratchy dark burgundy contour strokes, semi-transparent watercolor-like color wash, rough animation storyboard finish, lightly sketched interior background, exaggerated original pet expressions, huge oval eyes, tiny pupils, visible correction strokes, and one clear comic prop-driven beat.\n\nStage the scene like an animation story artist frame. Keep one character in an extreme emotional pose and another character in a contrasting deadpan or suspicious reaction. Make the foreground prop explain the joke. Leave sketch marks, motion ticks, crumbs, rough shadows, and unfinished room lines visible. Do not include platform UI, watermarks, creator IDs, logos, QR codes, app buttons, or copied characters.",
+  "negative_prompt": "watermark, username, platform logo, app UI, button overlay, QR code, creator signature, brand logo, exact reference characters, copied franchise character, polished vector art, clean corporate mascot, 3D render, photorealistic pet photo, airbrushed fur, hyperreal lighting, glossy toy look, anime cel shading, dense readable signage, perfect typography, cold neon palette, dark horror mood, violent scene, flat empty background, overfinished lineart",
+  "examples": [
     {
       "case_name": "Midnight Snack Interrogation",
-      "variables": {
+      "values": {
         "SUBJECT": "a narrow-eyed gray cat and a cream dog caught in the act",
         "SUBJECT_ACTION": "the cat silently interrogates the dog while the dog freezes with guilty wide eyes",
         "PRODUCT_OR_PROP": "orange cookie jar tipped open with round biscuits spilling out",
@@ -65,13 +78,12 @@
         "MAIN_TEXT": "",
         "SECONDARY_TEXT": "",
         "ACCENT_SYMBOL": "cookie crumbs, accusation ticks, smell curls, and a stiff wagging tail arc",
-        "WARDROBE_STYLE": "plain pet silhouettes with simple collar tags",
-        "ASPECT_RATIO": "9:16 or 16:9"
+        "WARDROBE_STYLE": "plain pet silhouettes with simple collar tags"
       }
     },
     {
       "case_name": "Vacuum Cleaner Alarm",
-      "variables": {
+      "values": {
         "SUBJECT": "a smug sofa cat and a panicked floppy-eared dog",
         "SUBJECT_ACTION": "the dog recoils from the vacuum hose while the cat watches like a bored supervisor",
         "PRODUCT_OR_PROP": "chunky orange vacuum cleaner with a curling black hose",
@@ -80,13 +92,12 @@
         "MAIN_TEXT": "",
         "SECONDARY_TEXT": "",
         "ACCENT_SYMBOL": "buzzing vibration ticks, dust clouds, hose curls, and alarm sweat drops",
-        "WARDROBE_STYLE": "tiny scarf on the dog, simple collar on the cat",
-        "ASPECT_RATIO": "9:16 or 16:9"
+        "WARDROBE_STYLE": "tiny scarf on the dog, simple collar on the cat"
       }
     },
     {
       "case_name": "Houseplant Evidence",
-      "variables": {
+      "values": {
         "SUBJECT": "a stern gray cat and a round cream puppy with muddy paws",
         "SUBJECT_ACTION": "the cat points at the toppled plant while the puppy pretends nothing happened",
         "PRODUCT_OR_PROP": "terracotta plant pot knocked sideways with loose leaves and soil clumps",
@@ -95,13 +106,12 @@
         "MAIN_TEXT": "",
         "SECONDARY_TEXT": "",
         "ACCENT_SYMBOL": "mud paw prints, falling leaves, sharp blame marks, and nervous tail loops",
-        "WARDROBE_STYLE": "no clothing, just simple expressive pet silhouettes",
-        "ASPECT_RATIO": "9:16 or 16:9"
+        "WARDROBE_STYLE": "no clothing, just simple expressive pet silhouettes"
       }
     },
     {
       "case_name": "Birthday Candle Chaos",
-      "variables": {
+      "values": {
         "SUBJECT": "a tiny unimpressed cat and a large startled dog",
         "SUBJECT_ACTION": "the dog howls at a tiny candle flame while the cat waits to eat the cake",
         "PRODUCT_OR_PROP": "small orange birthday cake with one crooked candle",
@@ -110,15 +120,8 @@
         "MAIN_TEXT": "",
         "SECONDARY_TEXT": "",
         "ACCENT_SYMBOL": "candle sparks, cake crumbs, shock ticks, and looping breath lines",
-        "WARDROBE_STYLE": "sketchy paper party cone on the dog, plain cat silhouette",
-        "ASPECT_RATIO": "9:16 or 16:9"
+        "WARDROBE_STYLE": "sketchy paper party cone on the dog, plain cat silhouette"
       }
     }
-  ],
-  "related_styles": [
-    "playful-mascot-doodle-snapshot-style",
-    "orange-brush-mascot-action-poster-style",
-    "gothic-cat-doodle-photo-collage-style"
-  ],
-  "license": "CC BY 4.0"
+  ]
 }
