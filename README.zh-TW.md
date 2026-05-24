@@ -14,8 +14,8 @@
 </p>
 
 <p align="center">
-  <img alt="風格數量" src="https://img.shields.io/badge/styles-37-ff5a7a?style=flat-square">
-  <img alt="預覽圖" src="https://img.shields.io/badge/previews-74-4cc9f0?style=flat-square">
+  <img alt="風格數量" src="https://img.shields.io/badge/styles-38-ff5a7a?style=flat-square">
+  <img alt="預覽圖" src="https://img.shields.io/badge/previews-76-4cc9f0?style=flat-square">
   <img alt="格式" src="https://img.shields.io/badge/format-style.json-111111?style=flat-square">
   <img alt="語言" src="https://img.shields.io/badge/languages-6-f7b801?style=flat-square">
 </p>
@@ -76,6 +76,12 @@ ASPECT_RATIO = 16:9
 <table>
 <tr>
 <td width="33%" valign="top">
+<a href="styles/mono-noir-type-portrait-poster-style"><img src="styles/mono-noir-type-portrait-poster-style/preview-16x9.jpg" alt="Mono Noir Type Portrait Poster Style preview"></a>
+<h3>Mono Noir Type Portrait Poster Style</h3>
+<p>一種黑白高反差編輯肖像海報風格：近景人物、巨大的小寫無襯線標題、首詞白色標籤反轉、深炭黑負空間與冷峻 noir 光影。</p>
+<p><a href="styles/mono-noir-type-portrait-poster-style/style.json"><strong>打開 style.json</strong></a> · <a href="docs/copy-prompts/mono-noir-type-portrait-poster-style.md">複製提示詞</a> · <a href="styles/mono-noir-type-portrait-poster-style">目錄</a></p>
+</td>
+<td width="33%" valign="top">
 <a href="styles/bold-block-mascot-poster-style"><img src="styles/bold-block-mascot-poster-style/preview-16x9.jpg" alt="Bold Block Mascot Poster Style preview"></a>
 <h3>Bold Block Mascot Poster Style</h3>
 <p>一種密集的扁平吉祥物海報風格：巨大黑色塊狀標題字、白色貼紙感角色、粗黑卡通描邊、斜切檸檬黃或青綠色面板、緊湊作品集卡片標籤、少量紅色點綴，以及乾淨米白印刷表面。</p>
@@ -87,14 +93,14 @@ ASPECT_RATIO = 16:9
 <p>一種藍色 HUD 創作者科技發布海報風格：微距 3D 硬體主視覺、超大的羅紋手套、電藍色玻璃介面面板、巨大壓縮白色標題字、密集功能卡片層級，以及一個暖金色性能徽章。</p>
 <p><a href="styles/blue-hud-macro-product-poster/style.json"><strong>打開 style.json</strong></a> · <a href="docs/copy-prompts/blue-hud-macro-product-poster.md">複製提示詞</a> · <a href="styles/blue-hud-macro-product-poster">目錄</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a href="styles/warm-fisheye-product-impact-ad-style"><img src="styles/warm-fisheye-product-impact-ad-style/preview-16x9.jpg" alt="Warm Fisheye Product Impact Ad preview"></a>
 <h3>Warm Fisheye Product Impact Ad</h3>
 <p>一種密集的中文社交電商產品廣告風格：微距魚眼產品隧道、貼近鏡頭的主產品、巨大斜切白色中文標題、暖焦糖棕燈光、藍色標註條、底部產品資訊條和高光澤質感。</p>
 <p><a href="styles/warm-fisheye-product-impact-ad-style/style.json"><strong>打開 style.json</strong></a> · <a href="docs/copy-prompts/warm-fisheye-product-impact-ad-style.md">複製提示詞</a> · <a href="styles/warm-fisheye-product-impact-ad-style">目錄</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a href="styles/olive-scribble-sports-poster-style"><img src="styles/olive-scribble-sports-poster-style/preview-16x9.jpg" alt="Olive Scribble Sports Poster preview"></a>
 <h3>Olive Scribble Sports Poster</h3>
@@ -106,12 +112,6 @@ ASPECT_RATIO = 16:9
 <h3>Bold Anime Reaction Thumbnail</h3>
 <p>高衝擊動漫網頁縮圖風格：超大反應角色、巨大的黃黑標題字、分屏構圖、青藍發光揭示區和乾淨賽璐璐插畫。</p>
 <p><a href="styles/bold-anime-reaction-thumbnail-style/style.json"><strong>打開 style.json</strong></a> · <a href="docs/copy-prompts/bold-anime-reaction-thumbnail-style.md">複製提示詞</a> · <a href="styles/bold-anime-reaction-thumbnail-style">目錄</a></p>
-</td>
-<td width="33%" valign="top">
-<a href="styles/turquoise-red-techno-manga-poster-style"><img src="styles/turquoise-red-techno-manga-poster-style/preview-16x9.jpg" alt="Turquoise Red Techno Manga Poster preview"></a>
-<h3>Turquoise Red Techno Manga Poster</h3>
-<p>復古科技漫畫海報風格：奶油色紙張底、巨大紅橙展示字、青綠色技術服裝或硬體、密集機械線稿、標註面板、平面賽璐璐陰影和微微褪色的印刷顆粒。</p>
-<p><a href="styles/turquoise-red-techno-manga-poster-style/style.json"><strong>打開 style.json</strong></a> · <a href="docs/copy-prompts/turquoise-red-techno-manga-poster-style.md">複製提示詞</a> · <a href="styles/turquoise-red-techno-manga-poster-style">目錄</a></p>
 </td>
 </tr>
 </table>
@@ -147,43 +147,44 @@ python3 scripts/validate-style-json.py .
 
 | # | 風格 | Copy Prompt | 文件 |
 | --- | --- | --- | --- |
-| 1 | [Bold Block Mascot Poster Style](styles/bold-block-mascot-poster-style) | [Copy Prompt](docs/copy-prompts/bold-block-mascot-poster-style.md) | [style.json](styles/bold-block-mascot-poster-style/style.json) |
-| 2 | [Blue HUD Macro Creator Tech Poster](styles/blue-hud-macro-product-poster) | [Copy Prompt](docs/copy-prompts/blue-hud-macro-product-poster.md) | [style.json](styles/blue-hud-macro-product-poster/style.json) |
-| 3 | [Warm Fisheye Product Impact Ad](styles/warm-fisheye-product-impact-ad-style) | [Copy Prompt](docs/copy-prompts/warm-fisheye-product-impact-ad-style.md) | [style.json](styles/warm-fisheye-product-impact-ad-style/style.json) |
-| 4 | [Olive Scribble Sports Poster](styles/olive-scribble-sports-poster-style) | [Copy Prompt](docs/copy-prompts/olive-scribble-sports-poster-style.md) | [style.json](styles/olive-scribble-sports-poster-style/style.json) |
-| 5 | [Bold Anime Reaction Thumbnail](styles/bold-anime-reaction-thumbnail-style) | [Copy Prompt](docs/copy-prompts/bold-anime-reaction-thumbnail-style.md) | [style.json](styles/bold-anime-reaction-thumbnail-style/style.json) |
-| 6 | [Turquoise Red Techno Manga Poster](styles/turquoise-red-techno-manga-poster-style) | [Copy Prompt](docs/copy-prompts/turquoise-red-techno-manga-poster-style.md) | [style.json](styles/turquoise-red-techno-manga-poster-style/style.json) |
-| 7 | [Chromatic Fisheye Orbit Pop Poster](styles/chromatic-fisheye-orbit-pop-poster-style) | [Copy Prompt](docs/copy-prompts/chromatic-fisheye-orbit-pop-poster-style.md) | [style.json](styles/chromatic-fisheye-orbit-pop-poster-style/style.json) |
-| 8 | [Naive Marker PSA Poster](styles/naive-marker-psa-poster-style) | [Copy Prompt](docs/copy-prompts/naive-marker-psa-poster-style.md) | [style.json](styles/naive-marker-psa-poster-style/style.json) |
-| 9 | [Blue Bubble Fisheye Action Poster](styles/blue-bubble-fisheye-action-poster-style) | [Copy Prompt](docs/copy-prompts/blue-bubble-fisheye-action-poster-style.md) | [style.json](styles/blue-bubble-fisheye-action-poster-style/style.json) |
-| 10 | [Cozy Bedroom Doodle Companion Snapshot](styles/cozy-bedroom-doodle-companion-snapshot-style) | [Copy Prompt](docs/copy-prompts/cozy-bedroom-doodle-companion-snapshot-style.md) | [style.json](styles/cozy-bedroom-doodle-companion-snapshot-style/style.json) |
-| 11 | [Surreal Fish Doodle Landmark Photo Collage](styles/surreal-fish-doodle-landmark-photo-collage-style) | [Copy Prompt](docs/copy-prompts/surreal-fish-doodle-landmark-photo-collage-style.md) | [style.json](styles/surreal-fish-doodle-landmark-photo-collage-style/style.json) |
-| 12 | [Plush Comic Toy Product Poster](styles/plush-comic-toy-product-poster-style) | [Copy Prompt](docs/copy-prompts/plush-comic-toy-product-poster-style.md) | [style.json](styles/plush-comic-toy-product-poster-style/style.json) |
-| 13 | [Rough Animation Pet Sketch Storyboard](styles/rough-animation-pet-sketch-storyboard-style) | [Copy Prompt](docs/copy-prompts/rough-animation-pet-sketch-storyboard-style.md) | [style.json](styles/rough-animation-pet-sketch-storyboard-style/style.json) |
-| 14 | [Tri Color Hardcut Portrait Poster](styles/tri-color-hardcut-portrait-poster-style) | [Copy Prompt](docs/copy-prompts/tri-color-hardcut-portrait-poster-style.md) | [style.json](styles/tri-color-hardcut-portrait-poster-style/style.json) |
-| 15 | [Clean Triptych Travel Vlog Thumbnail](styles/clean-triptych-travel-vlog-thumbnail-style) | [Copy Prompt](docs/copy-prompts/clean-triptych-travel-vlog-thumbnail-style.md) | [style.json](styles/clean-triptych-travel-vlog-thumbnail-style/style.json) |
-| 16 | [Playful Mascot Doodle Snapshot](styles/playful-mascot-doodle-snapshot-style) | [Copy Prompt](docs/copy-prompts/playful-mascot-doodle-snapshot-style.md) | [style.json](styles/playful-mascot-doodle-snapshot-style/style.json) |
-| 17 | [Teenage Skate Scribble Screenprint Poster](styles/teenage-skate-scribble-screenprint-poster-style) | [Copy Prompt](docs/copy-prompts/teenage-skate-scribble-screenprint-poster-style.md) | [style.json](styles/teenage-skate-scribble-screenprint-poster-style/style.json) |
-| 18 | [Impact Burst Halftone Comic Poster](styles/impact-burst-halftone-comic-poster-style) | [Copy Prompt](docs/copy-prompts/impact-burst-halftone-comic-poster-style.md) | [style.json](styles/impact-burst-halftone-comic-poster-style/style.json) |
-| 19 | [Sunburst Fisheye Bubble Type Poster](styles/sunburst-fisheye-bubble-type-poster-style) | [Copy Prompt](docs/copy-prompts/sunburst-fisheye-bubble-type-poster-style.md) | [style.json](styles/sunburst-fisheye-bubble-type-poster-style/style.json) |
-| 20 | [Backseat Transit Doodle Letter Poster](styles/backseat-transit-doodle-letter-poster-style) | [Copy Prompt](docs/copy-prompts/backseat-transit-doodle-letter-poster-style.md) | [style.json](styles/backseat-transit-doodle-letter-poster-style/style.json) |
-| 21 | [Analog Sticker Diary Portrait Poster](styles/analog-sticker-diary-portrait-poster-style) | [Copy Prompt](docs/copy-prompts/analog-sticker-diary-portrait-poster-style.md) | [style.json](styles/analog-sticker-diary-portrait-poster-style/style.json) |
-| 22 | [Folded Diamond Perspective Type Poster](styles/folded-diamond-perspective-type-poster-style) | [Copy Prompt](docs/copy-prompts/folded-diamond-perspective-type-poster-style.md) | [style.json](styles/folded-diamond-perspective-type-poster-style/style.json) |
-| 23 | [Gothic Cat Doodle Photo Collage](styles/gothic-cat-doodle-photo-collage-style) | [Copy Prompt](docs/copy-prompts/gothic-cat-doodle-photo-collage-style.md) | [style.json](styles/gothic-cat-doodle-photo-collage-style/style.json) |
-| 24 | [K-pop Apocalypse Ransom Zine](styles/k-pop-apocalypse-ransom-zine-style) | [Copy Prompt](docs/copy-prompts/k-pop-apocalypse-ransom-zine-style.md) | [style.json](styles/k-pop-apocalypse-ransom-zine-style/style.json) |
-| 25 | [Metro Doodle Snapshot Diary](styles/metro-doodle-snapshot-diary-style) | [Copy Prompt](docs/copy-prompts/metro-doodle-snapshot-diary-style.md) | [style.json](styles/metro-doodle-snapshot-diary-style/style.json) |
-| 26 | [Mountain Trail Monster Doodle Poster](styles/mountain-trail-monster-doodle-poster-style) | [Copy Prompt](docs/copy-prompts/mountain-trail-monster-doodle-poster-style.md) | [style.json](styles/mountain-trail-monster-doodle-poster-style/style.json) |
-| 27 | [Neon Doodle Gallery Snapshot](styles/neon-doodle-gallery-snapshot-style) | [Copy Prompt](docs/copy-prompts/neon-doodle-gallery-snapshot-style.md) | [style.json](styles/neon-doodle-gallery-snapshot-style/style.json) |
-| 28 | [Neon Kinetic Typographic Poster](styles/neon-kinetic-typographic-poster-style) | [Copy Prompt](docs/copy-prompts/neon-kinetic-typographic-poster-style.md) | [style.json](styles/neon-kinetic-typographic-poster-style/style.json) |
-| 29 | [Orange Brush Mascot Action Poster](styles/orange-brush-mascot-action-poster-style) | [Copy Prompt](docs/copy-prompts/orange-brush-mascot-action-poster-style.md) | [style.json](styles/orange-brush-mascot-action-poster-style/style.json) |
-| 30 | [Photo Illustration Overlay Poster](styles/photo-illustration-overlay-poster-style) | [Copy Prompt](docs/copy-prompts/photo-illustration-overlay-poster-style.md) | [style.json](styles/photo-illustration-overlay-poster-style/style.json) |
-| 31 | [Plush City Festival Mobile Poster](styles/plush-city-festival-mobile-poster-style) | [Copy Prompt](docs/copy-prompts/plush-city-festival-mobile-poster-style.md) | [style.json](styles/plush-city-festival-mobile-poster-style/style.json) |
-| 32 | [Pop Bubble Letter Photo Poster](styles/pop-bubble-letter-photo-poster-style) | [Copy Prompt](docs/copy-prompts/pop-bubble-letter-photo-poster-style.md) | [style.json](styles/pop-bubble-letter-photo-poster-style/style.json) |
-| 33 | [Soft Analog Future Editorial Poster](styles/soft-analog-future-editorial-poster-style) | [Copy Prompt](docs/copy-prompts/soft-analog-future-editorial-poster-style.md) | [style.json](styles/soft-analog-future-editorial-poster-style/style.json) |
-| 34 | [Subway Doodle Photo Hybrid](styles/subway-doodle-photo-hybrid-style) | [Copy Prompt](docs/copy-prompts/subway-doodle-photo-hybrid-style.md) | [style.json](styles/subway-doodle-photo-hybrid-style/style.json) |
-| 35 | [Tokyo Kawaii Travel Collage Poster](styles/tokyo-kawaii-travel-collage-poster-style) | [Copy Prompt](docs/copy-prompts/tokyo-kawaii-travel-collage-poster-style.md) | [style.json](styles/tokyo-kawaii-travel-collage-poster-style/style.json) |
-| 36 | [Urban Transit Doodle Diary](styles/urban-transit-doodle-diary-style) | [Copy Prompt](docs/copy-prompts/urban-transit-doodle-diary-style.md) | [style.json](styles/urban-transit-doodle-diary-style/style.json) |
-| 37 | [Y2K Grunge Hip-hop Cutout Poster](styles/y2k-grunge-hiphop-cutout-poster-style) | [Copy Prompt](docs/copy-prompts/y2k-grunge-hiphop-cutout-poster-style.md) | [style.json](styles/y2k-grunge-hiphop-cutout-poster-style/style.json) |
+| 1 | [Mono Noir Type Portrait Poster Style](styles/mono-noir-type-portrait-poster-style) | [Copy Prompt](docs/copy-prompts/mono-noir-type-portrait-poster-style.md) | [style.json](styles/mono-noir-type-portrait-poster-style/style.json) |
+| 2 | [Bold Block Mascot Poster Style](styles/bold-block-mascot-poster-style) | [Copy Prompt](docs/copy-prompts/bold-block-mascot-poster-style.md) | [style.json](styles/bold-block-mascot-poster-style/style.json) |
+| 3 | [Blue HUD Macro Creator Tech Poster](styles/blue-hud-macro-product-poster) | [Copy Prompt](docs/copy-prompts/blue-hud-macro-product-poster.md) | [style.json](styles/blue-hud-macro-product-poster/style.json) |
+| 4 | [Warm Fisheye Product Impact Ad](styles/warm-fisheye-product-impact-ad-style) | [Copy Prompt](docs/copy-prompts/warm-fisheye-product-impact-ad-style.md) | [style.json](styles/warm-fisheye-product-impact-ad-style/style.json) |
+| 5 | [Olive Scribble Sports Poster](styles/olive-scribble-sports-poster-style) | [Copy Prompt](docs/copy-prompts/olive-scribble-sports-poster-style.md) | [style.json](styles/olive-scribble-sports-poster-style/style.json) |
+| 6 | [Bold Anime Reaction Thumbnail](styles/bold-anime-reaction-thumbnail-style) | [Copy Prompt](docs/copy-prompts/bold-anime-reaction-thumbnail-style.md) | [style.json](styles/bold-anime-reaction-thumbnail-style/style.json) |
+| 7 | [Turquoise Red Techno Manga Poster](styles/turquoise-red-techno-manga-poster-style) | [Copy Prompt](docs/copy-prompts/turquoise-red-techno-manga-poster-style.md) | [style.json](styles/turquoise-red-techno-manga-poster-style/style.json) |
+| 8 | [Chromatic Fisheye Orbit Pop Poster](styles/chromatic-fisheye-orbit-pop-poster-style) | [Copy Prompt](docs/copy-prompts/chromatic-fisheye-orbit-pop-poster-style.md) | [style.json](styles/chromatic-fisheye-orbit-pop-poster-style/style.json) |
+| 9 | [Naive Marker PSA Poster](styles/naive-marker-psa-poster-style) | [Copy Prompt](docs/copy-prompts/naive-marker-psa-poster-style.md) | [style.json](styles/naive-marker-psa-poster-style/style.json) |
+| 10 | [Blue Bubble Fisheye Action Poster](styles/blue-bubble-fisheye-action-poster-style) | [Copy Prompt](docs/copy-prompts/blue-bubble-fisheye-action-poster-style.md) | [style.json](styles/blue-bubble-fisheye-action-poster-style/style.json) |
+| 11 | [Cozy Bedroom Doodle Companion Snapshot](styles/cozy-bedroom-doodle-companion-snapshot-style) | [Copy Prompt](docs/copy-prompts/cozy-bedroom-doodle-companion-snapshot-style.md) | [style.json](styles/cozy-bedroom-doodle-companion-snapshot-style/style.json) |
+| 12 | [Surreal Fish Doodle Landmark Photo Collage](styles/surreal-fish-doodle-landmark-photo-collage-style) | [Copy Prompt](docs/copy-prompts/surreal-fish-doodle-landmark-photo-collage-style.md) | [style.json](styles/surreal-fish-doodle-landmark-photo-collage-style/style.json) |
+| 13 | [Plush Comic Toy Product Poster](styles/plush-comic-toy-product-poster-style) | [Copy Prompt](docs/copy-prompts/plush-comic-toy-product-poster-style.md) | [style.json](styles/plush-comic-toy-product-poster-style/style.json) |
+| 14 | [Rough Animation Pet Sketch Storyboard](styles/rough-animation-pet-sketch-storyboard-style) | [Copy Prompt](docs/copy-prompts/rough-animation-pet-sketch-storyboard-style.md) | [style.json](styles/rough-animation-pet-sketch-storyboard-style/style.json) |
+| 15 | [Tri Color Hardcut Portrait Poster](styles/tri-color-hardcut-portrait-poster-style) | [Copy Prompt](docs/copy-prompts/tri-color-hardcut-portrait-poster-style.md) | [style.json](styles/tri-color-hardcut-portrait-poster-style/style.json) |
+| 16 | [Clean Triptych Travel Vlog Thumbnail](styles/clean-triptych-travel-vlog-thumbnail-style) | [Copy Prompt](docs/copy-prompts/clean-triptych-travel-vlog-thumbnail-style.md) | [style.json](styles/clean-triptych-travel-vlog-thumbnail-style/style.json) |
+| 17 | [Playful Mascot Doodle Snapshot](styles/playful-mascot-doodle-snapshot-style) | [Copy Prompt](docs/copy-prompts/playful-mascot-doodle-snapshot-style.md) | [style.json](styles/playful-mascot-doodle-snapshot-style/style.json) |
+| 18 | [Teenage Skate Scribble Screenprint Poster](styles/teenage-skate-scribble-screenprint-poster-style) | [Copy Prompt](docs/copy-prompts/teenage-skate-scribble-screenprint-poster-style.md) | [style.json](styles/teenage-skate-scribble-screenprint-poster-style/style.json) |
+| 19 | [Impact Burst Halftone Comic Poster](styles/impact-burst-halftone-comic-poster-style) | [Copy Prompt](docs/copy-prompts/impact-burst-halftone-comic-poster-style.md) | [style.json](styles/impact-burst-halftone-comic-poster-style/style.json) |
+| 20 | [Sunburst Fisheye Bubble Type Poster](styles/sunburst-fisheye-bubble-type-poster-style) | [Copy Prompt](docs/copy-prompts/sunburst-fisheye-bubble-type-poster-style.md) | [style.json](styles/sunburst-fisheye-bubble-type-poster-style/style.json) |
+| 21 | [Backseat Transit Doodle Letter Poster](styles/backseat-transit-doodle-letter-poster-style) | [Copy Prompt](docs/copy-prompts/backseat-transit-doodle-letter-poster-style.md) | [style.json](styles/backseat-transit-doodle-letter-poster-style/style.json) |
+| 22 | [Analog Sticker Diary Portrait Poster](styles/analog-sticker-diary-portrait-poster-style) | [Copy Prompt](docs/copy-prompts/analog-sticker-diary-portrait-poster-style.md) | [style.json](styles/analog-sticker-diary-portrait-poster-style/style.json) |
+| 23 | [Folded Diamond Perspective Type Poster](styles/folded-diamond-perspective-type-poster-style) | [Copy Prompt](docs/copy-prompts/folded-diamond-perspective-type-poster-style.md) | [style.json](styles/folded-diamond-perspective-type-poster-style/style.json) |
+| 24 | [Gothic Cat Doodle Photo Collage](styles/gothic-cat-doodle-photo-collage-style) | [Copy Prompt](docs/copy-prompts/gothic-cat-doodle-photo-collage-style.md) | [style.json](styles/gothic-cat-doodle-photo-collage-style/style.json) |
+| 25 | [K-pop Apocalypse Ransom Zine](styles/k-pop-apocalypse-ransom-zine-style) | [Copy Prompt](docs/copy-prompts/k-pop-apocalypse-ransom-zine-style.md) | [style.json](styles/k-pop-apocalypse-ransom-zine-style/style.json) |
+| 26 | [Metro Doodle Snapshot Diary](styles/metro-doodle-snapshot-diary-style) | [Copy Prompt](docs/copy-prompts/metro-doodle-snapshot-diary-style.md) | [style.json](styles/metro-doodle-snapshot-diary-style/style.json) |
+| 27 | [Mountain Trail Monster Doodle Poster](styles/mountain-trail-monster-doodle-poster-style) | [Copy Prompt](docs/copy-prompts/mountain-trail-monster-doodle-poster-style.md) | [style.json](styles/mountain-trail-monster-doodle-poster-style/style.json) |
+| 28 | [Neon Doodle Gallery Snapshot](styles/neon-doodle-gallery-snapshot-style) | [Copy Prompt](docs/copy-prompts/neon-doodle-gallery-snapshot-style.md) | [style.json](styles/neon-doodle-gallery-snapshot-style/style.json) |
+| 29 | [Neon Kinetic Typographic Poster](styles/neon-kinetic-typographic-poster-style) | [Copy Prompt](docs/copy-prompts/neon-kinetic-typographic-poster-style.md) | [style.json](styles/neon-kinetic-typographic-poster-style/style.json) |
+| 30 | [Orange Brush Mascot Action Poster](styles/orange-brush-mascot-action-poster-style) | [Copy Prompt](docs/copy-prompts/orange-brush-mascot-action-poster-style.md) | [style.json](styles/orange-brush-mascot-action-poster-style/style.json) |
+| 31 | [Photo Illustration Overlay Poster](styles/photo-illustration-overlay-poster-style) | [Copy Prompt](docs/copy-prompts/photo-illustration-overlay-poster-style.md) | [style.json](styles/photo-illustration-overlay-poster-style/style.json) |
+| 32 | [Plush City Festival Mobile Poster](styles/plush-city-festival-mobile-poster-style) | [Copy Prompt](docs/copy-prompts/plush-city-festival-mobile-poster-style.md) | [style.json](styles/plush-city-festival-mobile-poster-style/style.json) |
+| 33 | [Pop Bubble Letter Photo Poster](styles/pop-bubble-letter-photo-poster-style) | [Copy Prompt](docs/copy-prompts/pop-bubble-letter-photo-poster-style.md) | [style.json](styles/pop-bubble-letter-photo-poster-style/style.json) |
+| 34 | [Soft Analog Future Editorial Poster](styles/soft-analog-future-editorial-poster-style) | [Copy Prompt](docs/copy-prompts/soft-analog-future-editorial-poster-style.md) | [style.json](styles/soft-analog-future-editorial-poster-style/style.json) |
+| 35 | [Subway Doodle Photo Hybrid](styles/subway-doodle-photo-hybrid-style) | [Copy Prompt](docs/copy-prompts/subway-doodle-photo-hybrid-style.md) | [style.json](styles/subway-doodle-photo-hybrid-style/style.json) |
+| 36 | [Tokyo Kawaii Travel Collage Poster](styles/tokyo-kawaii-travel-collage-poster-style) | [Copy Prompt](docs/copy-prompts/tokyo-kawaii-travel-collage-poster-style.md) | [style.json](styles/tokyo-kawaii-travel-collage-poster-style/style.json) |
+| 37 | [Urban Transit Doodle Diary](styles/urban-transit-doodle-diary-style) | [Copy Prompt](docs/copy-prompts/urban-transit-doodle-diary-style.md) | [style.json](styles/urban-transit-doodle-diary-style/style.json) |
+| 38 | [Y2K Grunge Hip-hop Cutout Poster](styles/y2k-grunge-hiphop-cutout-poster-style) | [Copy Prompt](docs/copy-prompts/y2k-grunge-hiphop-cutout-poster-style.md) | [style.json](styles/y2k-grunge-hiphop-cutout-poster-style/style.json) |
 
 ## 發布規則
 
