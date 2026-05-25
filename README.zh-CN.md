@@ -14,8 +14,8 @@
 </p>
 
 <p align="center">
-  <img alt="风格数量" src="https://img.shields.io/badge/styles-38-ff5a7a?style=flat-square">
-  <img alt="预览图" src="https://img.shields.io/badge/previews-76-4cc9f0?style=flat-square">
+  <img alt="风格数量" src="https://img.shields.io/badge/styles-40-ff5a7a?style=flat-square">
+  <img alt="预览图" src="https://img.shields.io/badge/previews-80-4cc9f0?style=flat-square">
   <img alt="格式" src="https://img.shields.io/badge/format-style.json-111111?style=flat-square">
   <img alt="语言" src="https://img.shields.io/badge/languages-6-f7b801?style=flat-square">
 </p>
@@ -76,11 +76,25 @@ ASPECT_RATIO = 16:9
 <table>
 <tr>
 <td width="33%" valign="top">
+<a href="styles/blue-chinese-perspective-type-canyon-style"><img src="styles/blue-chinese-perspective-type-canyon-style/preview-16x9.jpg" alt="Blue Chinese Perspective Type Canyon Style preview"></a>
+<h3>Blue Chinese Perspective Type Canyon Style</h3>
+<p>一种中文透视字形峡谷海报风格：极端一点透视走廊、饱和蓝色中央梯形平面、堆叠的巨大白色中文标题字，以及塞满扭曲白灰中文辅助字的黑色侧墙。</p>
+<p><a href="styles/blue-chinese-perspective-type-canyon-style/style.json"><strong>打开 style.json</strong></a> · <a href="docs/copy-prompts/blue-chinese-perspective-type-canyon-style.md">复制提示词</a> · <a href="styles/blue-chinese-perspective-type-canyon-style">目录</a></p>
+</td>
+<td width="33%" valign="top">
+<a href="styles/rough-ink-music-doodle-poster-style"><img src="styles/rough-ink-music-doodle-poster-style/preview-16x9.jpg" alt="Rough Ink Music Doodle Poster Style preview"></a>
+<h3>Rough Ink Music Doodle Poster Style</h3>
+<p>一种粗糙手绘音乐涂鸦海报风格：超大深绿黑色刷写标题、浅粉纸张、亮粉辅助字、天真吉祥物线稿、青绿与粉色平涂、锐利黄色爆炸符号、散落音符涂鸦，以及类似扫描 risograph 的印刷纹理。</p>
+<p><a href="styles/rough-ink-music-doodle-poster-style/style.json"><strong>打开 style.json</strong></a> · <a href="docs/copy-prompts/rough-ink-music-doodle-poster-style.md">复制提示词</a> · <a href="styles/rough-ink-music-doodle-poster-style">目录</a></p>
+</td>
+<td width="33%" valign="top">
 <a href="styles/mono-noir-type-portrait-poster-style"><img src="styles/mono-noir-type-portrait-poster-style/preview-16x9.jpg" alt="Mono Noir Type Portrait Poster Style preview"></a>
 <h3>Mono Noir Type Portrait Poster Style</h3>
 <p>一种黑白高反差编辑肖像海报风格：近景人物、巨大的小写无衬线标题、首词白色标签反转、深炭黑负空间和冷峻 noir 光影。</p>
 <p><a href="styles/mono-noir-type-portrait-poster-style/style.json"><strong>打开 style.json</strong></a> · <a href="docs/copy-prompts/mono-noir-type-portrait-poster-style.md">复制提示词</a> · <a href="styles/mono-noir-type-portrait-poster-style">目录</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a href="styles/bold-block-mascot-poster-style"><img src="styles/bold-block-mascot-poster-style/preview-16x9.jpg" alt="Bold Block Mascot Poster Style preview"></a>
 <h3>Bold Block Mascot Poster Style</h3>
@@ -93,25 +107,11 @@ ASPECT_RATIO = 16:9
 <p>一种蓝色 HUD 创作者科技发布海报风格：微距 3D 硬件主视觉、超大的罗纹手套、电蓝色玻璃界面面板、巨大压缩白色标题字、密集功能卡片层级，以及一个暖金色性能徽章。</p>
 <p><a href="styles/blue-hud-macro-product-poster/style.json"><strong>打开 style.json</strong></a> · <a href="docs/copy-prompts/blue-hud-macro-product-poster.md">复制提示词</a> · <a href="styles/blue-hud-macro-product-poster">目录</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a href="styles/warm-fisheye-product-impact-ad-style"><img src="styles/warm-fisheye-product-impact-ad-style/preview-16x9.jpg" alt="Warm Fisheye Product Impact Ad preview"></a>
 <h3>Warm Fisheye Product Impact Ad</h3>
 <p>一种密集的中文社交电商产品广告风格：微距鱼眼产品隧道、贴近镜头的主产品、巨大斜切白色中文标题、暖焦糖棕灯光、蓝色标注条、底部产品信息条和高光泽质感。</p>
 <p><a href="styles/warm-fisheye-product-impact-ad-style/style.json"><strong>打开 style.json</strong></a> · <a href="docs/copy-prompts/warm-fisheye-product-impact-ad-style.md">复制提示词</a> · <a href="styles/warm-fisheye-product-impact-ad-style">目录</a></p>
-</td>
-<td width="33%" valign="top">
-<a href="styles/olive-scribble-sports-poster-style"><img src="styles/olive-scribble-sports-poster-style/preview-16x9.jpg" alt="Olive Scribble Sports Poster preview"></a>
-<h3>Olive Scribble Sports Poster</h3>
-<p>一种动感手工体育海报风格：米白纸底、不规则橄榄绿块、超大斜向动作人物、粗黑墨线、红色马克笔运动弧、黄绿色干刷笔触和丝网印刷质感。</p>
-<p><a href="styles/olive-scribble-sports-poster-style/style.json"><strong>打开 style.json</strong></a> · <a href="docs/copy-prompts/olive-scribble-sports-poster-style.md">复制提示词</a> · <a href="styles/olive-scribble-sports-poster-style">目录</a></p>
-</td>
-<td width="33%" valign="top">
-<a href="styles/bold-anime-reaction-thumbnail-style"><img src="styles/bold-anime-reaction-thumbnail-style/preview-16x9.jpg" alt="Bold Anime Reaction Thumbnail preview"></a>
-<h3>Bold Anime Reaction Thumbnail</h3>
-<p>一种高冲击动漫网页缩略图风格：超大反应角色、巨大的黄黑标题字、分屏构图、青蓝发光揭示区和干净赛璐璐插画。</p>
-<p><a href="styles/bold-anime-reaction-thumbnail-style/style.json"><strong>打开 style.json</strong></a> · <a href="docs/copy-prompts/bold-anime-reaction-thumbnail-style.md">复制提示词</a> · <a href="styles/bold-anime-reaction-thumbnail-style">目录</a></p>
 </td>
 </tr>
 </table>
@@ -145,46 +145,68 @@ python3 scripts/validate-style-json.py .
 
 ## 风格索引
 
-1. [Mono Noir Type Portrait Poster Style](#mono-noir-type-portrait-poster-style)
-2. [Bold Block Mascot Poster Style](#bold-block-mascot-poster-style)
-3. [Blue HUD Macro Creator Tech Poster](#blue-hud-macro-creator-tech-poster)
-4. [Warm Fisheye Product Impact Ad](#warm-fisheye-product-impact-ad)
-5. [Olive Scribble Sports Poster](#olive-scribble-sports-poster)
-6. [Bold Anime Reaction Thumbnail](#bold-anime-reaction-thumbnail)
-7. [Turquoise Red Techno Manga Poster](#turquoise-red-techno-manga-poster)
-8. [Chromatic Fisheye Orbit Pop Poster](#chromatic-fisheye-orbit-pop-poster)
-9. [Naive Marker PSA Poster](#naive-marker-psa-poster)
-10. [Blue Bubble Fisheye Action Poster](#blue-bubble-fisheye-action-poster)
-11. [Cozy Bedroom Doodle Companion Snapshot](#cozy-bedroom-doodle-companion-snapshot)
-12. [Surreal Fish Doodle Landmark Photo Collage](#surreal-fish-doodle-landmark-photo-collage)
-13. [Plush Comic Toy Product Poster](#plush-comic-toy-product-poster)
-14. [Rough Animation Pet Sketch Storyboard](#rough-animation-pet-sketch-storyboard)
-15. [Tri Color Hardcut Portrait Poster](#tri-color-hardcut-portrait-poster)
-16. [Clean Triptych Travel Vlog Thumbnail](#clean-triptych-travel-vlog-thumbnail)
-17. [Playful Mascot Doodle Snapshot](#playful-mascot-doodle-snapshot)
-18. [Teenage Skate Scribble Screenprint Poster](#teenage-skate-scribble-screenprint-poster)
-19. [Impact Burst Halftone Comic Poster](#impact-burst-halftone-comic-poster)
-20. [Sunburst Fisheye Bubble Type Poster](#sunburst-fisheye-bubble-type-poster)
-21. [Backseat Transit Doodle Letter Poster](#backseat-transit-doodle-letter-poster)
-22. [Analog Sticker Diary Portrait Poster](#analog-sticker-diary-portrait-poster)
-23. [Folded Diamond Perspective Type Poster](#folded-diamond-perspective-type-poster)
-24. [Gothic Cat Doodle Photo Collage](#gothic-cat-doodle-photo-collage)
-25. [K-pop Apocalypse Ransom Zine](#k-pop-apocalypse-ransom-zine)
-26. [Metro Doodle Snapshot Diary](#metro-doodle-snapshot-diary)
-27. [Mountain Trail Monster Doodle Poster](#mountain-trail-monster-doodle-poster)
-28. [Neon Doodle Gallery Snapshot](#neon-doodle-gallery-snapshot)
-29. [Neon Kinetic Typographic Poster](#neon-kinetic-typographic-poster)
-30. [Orange Brush Mascot Action Poster](#orange-brush-mascot-action-poster)
-31. [Photo Illustration Overlay Poster](#photo-illustration-overlay-poster)
-32. [Plush City Festival Mobile Poster](#plush-city-festival-mobile-poster)
-33. [Pop Bubble Letter Photo Poster](#pop-bubble-letter-photo-poster)
-34. [Soft Analog Future Editorial Poster](#soft-analog-future-editorial-poster)
-35. [Subway Doodle Photo Hybrid](#subway-doodle-photo-hybrid)
-36. [Tokyo Kawaii Travel Collage Poster](#tokyo-kawaii-travel-collage-poster)
-37. [Urban Transit Doodle Diary](#urban-transit-doodle-diary)
-38. [Y2K Grunge Hip-hop Cutout Poster](#y2k-grunge-hiphop-cutout-poster)
+1. [Blue Chinese Perspective Type Canyon Style](#blue-chinese-perspective-type-canyon-style)
+2. [Rough Ink Music Doodle Poster Style](#rough-ink-music-doodle-poster-style)
+3. [Mono Noir Type Portrait Poster Style](#mono-noir-type-portrait-poster-style)
+4. [Bold Block Mascot Poster Style](#bold-block-mascot-poster-style)
+5. [Blue HUD Macro Creator Tech Poster](#blue-hud-macro-creator-tech-poster)
+6. [Warm Fisheye Product Impact Ad](#warm-fisheye-product-impact-ad)
+7. [Olive Scribble Sports Poster](#olive-scribble-sports-poster)
+8. [Bold Anime Reaction Thumbnail](#bold-anime-reaction-thumbnail)
+9. [Turquoise Red Techno Manga Poster](#turquoise-red-techno-manga-poster)
+10. [Chromatic Fisheye Orbit Pop Poster](#chromatic-fisheye-orbit-pop-poster)
+11. [Naive Marker PSA Poster](#naive-marker-psa-poster)
+12. [Blue Bubble Fisheye Action Poster](#blue-bubble-fisheye-action-poster)
+13. [Cozy Bedroom Doodle Companion Snapshot](#cozy-bedroom-doodle-companion-snapshot)
+14. [Surreal Fish Doodle Landmark Photo Collage](#surreal-fish-doodle-landmark-photo-collage)
+15. [Plush Comic Toy Product Poster](#plush-comic-toy-product-poster)
+16. [Rough Animation Pet Sketch Storyboard](#rough-animation-pet-sketch-storyboard)
+17. [Tri Color Hardcut Portrait Poster](#tri-color-hardcut-portrait-poster)
+18. [Clean Triptych Travel Vlog Thumbnail](#clean-triptych-travel-vlog-thumbnail)
+19. [Playful Mascot Doodle Snapshot](#playful-mascot-doodle-snapshot)
+20. [Teenage Skate Scribble Screenprint Poster](#teenage-skate-scribble-screenprint-poster)
+21. [Impact Burst Halftone Comic Poster](#impact-burst-halftone-comic-poster)
+22. [Sunburst Fisheye Bubble Type Poster](#sunburst-fisheye-bubble-type-poster)
+23. [Backseat Transit Doodle Letter Poster](#backseat-transit-doodle-letter-poster)
+24. [Analog Sticker Diary Portrait Poster](#analog-sticker-diary-portrait-poster)
+25. [Folded Diamond Perspective Type Poster](#folded-diamond-perspective-type-poster)
+26. [Gothic Cat Doodle Photo Collage](#gothic-cat-doodle-photo-collage)
+27. [K-pop Apocalypse Ransom Zine](#k-pop-apocalypse-ransom-zine)
+28. [Metro Doodle Snapshot Diary](#metro-doodle-snapshot-diary)
+29. [Mountain Trail Monster Doodle Poster](#mountain-trail-monster-doodle-poster)
+30. [Neon Doodle Gallery Snapshot](#neon-doodle-gallery-snapshot)
+31. [Neon Kinetic Typographic Poster](#neon-kinetic-typographic-poster)
+32. [Orange Brush Mascot Action Poster](#orange-brush-mascot-action-poster)
+33. [Photo Illustration Overlay Poster](#photo-illustration-overlay-poster)
+34. [Plush City Festival Mobile Poster](#plush-city-festival-mobile-poster)
+35. [Pop Bubble Letter Photo Poster](#pop-bubble-letter-photo-poster)
+36. [Soft Analog Future Editorial Poster](#soft-analog-future-editorial-poster)
+37. [Subway Doodle Photo Hybrid](#subway-doodle-photo-hybrid)
+38. [Tokyo Kawaii Travel Collage Poster](#tokyo-kawaii-travel-collage-poster)
+39. [Urban Transit Doodle Diary](#urban-transit-doodle-diary)
+40. [Y2K Grunge Hip-hop Cutout Poster](#y2k-grunge-hiphop-cutout-poster)
 
 ## 风格目录
+
+### Blue Chinese Perspective Type Canyon Style
+
+<a href="styles/blue-chinese-perspective-type-canyon-style"><img src="styles/blue-chinese-perspective-type-canyon-style/preview-16x9.jpg" width="720" alt="Blue Chinese Perspective Type Canyon Style preview"></a>
+
+一种中文透视字形峡谷海报风格：极端一点透视走廊、饱和蓝色中央梯形平面、堆叠的巨大白色中文标题字，以及塞满扭曲白灰中文辅助字的黑色侧墙。
+
+文件： [style.json](styles/blue-chinese-perspective-type-canyon-style/style.json) · [复制提示词](docs/copy-prompts/blue-chinese-perspective-type-canyon-style.md) · [16:9 预览](styles/blue-chinese-perspective-type-canyon-style/preview-16x9.jpg) · [9:16 预览](styles/blue-chinese-perspective-type-canyon-style/preview-9x16.jpg) · [目录](styles/blue-chinese-perspective-type-canyon-style)
+
+---
+
+### Rough Ink Music Doodle Poster Style
+
+<a href="styles/rough-ink-music-doodle-poster-style"><img src="styles/rough-ink-music-doodle-poster-style/preview-16x9.jpg" width="720" alt="Rough Ink Music Doodle Poster Style preview"></a>
+
+一种粗糙手绘音乐涂鸦海报风格：超大深绿黑色刷写标题、浅粉纸张、亮粉辅助字、天真吉祥物线稿、青绿与粉色平涂、锐利黄色爆炸符号、散落音符涂鸦，以及类似扫描 risograph 的印刷纹理。
+
+文件： [style.json](styles/rough-ink-music-doodle-poster-style/style.json) · [复制提示词](docs/copy-prompts/rough-ink-music-doodle-poster-style.md) · [16:9 预览](styles/rough-ink-music-doodle-poster-style/preview-16x9.jpg) · [9:16 预览](styles/rough-ink-music-doodle-poster-style/preview-9x16.jpg) · [目录](styles/rough-ink-music-doodle-poster-style)
+
+---
 
 ### Mono Noir Type Portrait Poster Style
 

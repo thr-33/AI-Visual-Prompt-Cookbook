@@ -8,6 +8,7 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Analog Sticker Diary Portrait Poster Style | [Copy Prompt](analog-sticker-diary-portrait-poster-style.md) | [style.json](../../styles/analog-sticker-diary-portrait-poster-style/style.json) |
 | Backseat Transit Doodle Letter Poster Style | [Copy Prompt](backseat-transit-doodle-letter-poster-style.md) | [style.json](../../styles/backseat-transit-doodle-letter-poster-style/style.json) |
 | Blue Bubble Fisheye Action Poster Style | [Copy Prompt](blue-bubble-fisheye-action-poster-style.md) | [style.json](../../styles/blue-bubble-fisheye-action-poster-style/style.json) |
+| Blue Chinese Perspective Type Canyon Style | [Copy Prompt](blue-chinese-perspective-type-canyon-style.md) | [style.json](../../styles/blue-chinese-perspective-type-canyon-style/style.json) |
 | Blue HUD Macro Creator Tech Poster | [Copy Prompt](blue-hud-macro-product-poster.md) | [style.json](../../styles/blue-hud-macro-product-poster/style.json) |
 | Bold Anime Reaction Thumbnail Style | [Copy Prompt](bold-anime-reaction-thumbnail-style.md) | [style.json](../../styles/bold-anime-reaction-thumbnail-style/style.json) |
 | Bold Block Mascot Poster Style | [Copy Prompt](bold-block-mascot-poster-style.md) | [style.json](../../styles/bold-block-mascot-poster-style/style.json) |
@@ -32,6 +33,7 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Plush Comic Toy Product Poster Style | [Copy Prompt](plush-comic-toy-product-poster-style.md) | [style.json](../../styles/plush-comic-toy-product-poster-style/style.json) |
 | Pop Bubble Letter Photo Poster Style | [Copy Prompt](pop-bubble-letter-photo-poster-style.md) | [style.json](../../styles/pop-bubble-letter-photo-poster-style/style.json) |
 | Rough Animation Pet Sketch Storyboard Style | [Copy Prompt](rough-animation-pet-sketch-storyboard-style.md) | [style.json](../../styles/rough-animation-pet-sketch-storyboard-style/style.json) |
+| Rough Ink Music Doodle Poster Style | [Copy Prompt](rough-ink-music-doodle-poster-style.md) | [style.json](../../styles/rough-ink-music-doodle-poster-style/style.json) |
 | Soft Analog Future Editorial Poster | [Copy Prompt](soft-analog-future-editorial-poster-style.md) | [style.json](../../styles/soft-analog-future-editorial-poster-style/style.json) |
 | Subway Doodle Photo Hybrid | [Copy Prompt](subway-doodle-photo-hybrid-style.md) | [style.json](../../styles/subway-doodle-photo-hybrid-style/style.json) |
 | Sunburst Fisheye Bubble Type Poster Style | [Copy Prompt](sunburst-fisheye-bubble-type-poster-style.md) | [style.json](../../styles/sunburst-fisheye-bubble-type-poster-style/style.json) |
