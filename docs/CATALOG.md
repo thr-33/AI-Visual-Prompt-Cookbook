@@ -1,8 +1,18 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 41 styles. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 42 styles. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Neon Plush Gadget Pop 3D Style
+
+<a href="../styles/neon-plush-gadget-pop-3d-style"><img src="../styles/neon-plush-gadget-pop-3d-style/preview-16x9.jpg" width="720" alt="Neon Plush Gadget Pop 3D Style preview"></a>
+
+This style turns a subject into a bright collectible toy-advertising still: an acid lime studio field, one oversized fuzzy plush mascot, a chunky gadget or product prop, glossy translucent accessories, chrome details, hot-pink burst graphics, checkerboards, tags, stickers, and polished high-key 3D lighting.
+
+Files: [style.json](../styles/neon-plush-gadget-pop-3d-style/style.json) · [Copy Prompt](copy-prompts/neon-plush-gadget-pop-3d-style.md) · [16:9 preview](../styles/neon-plush-gadget-pop-3d-style/preview-16x9.jpg) · [9:16 preview](../styles/neon-plush-gadget-pop-3d-style/preview-9x16.jpg) · [Folder](../styles/neon-plush-gadget-pop-3d-style)
+
+---
 
 ### Blue Lime Kinetic Comic Type Poster Style
 
