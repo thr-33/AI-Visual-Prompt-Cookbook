@@ -1,8 +1,28 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 42 styles. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 44 styles. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Sunny 3D Avatar Campaign Style
+
+<a href="../styles/sunny-3d-avatar-campaign-style"><img src="../styles/sunny-3d-avatar-campaign-style/preview-16x9.jpg" width="720" alt="Sunny 3D Avatar Campaign Style preview"></a>
+
+A bright social campaign poster style built from glossy toy-like 3D avatars, saturated blue-sky outdoor lighting, exaggerated wide-angle perspective, oversized slanted headline typography, neon hand-drawn motion marks, rounded sticker labels, and friendly commercial energy.
+
+Files: [style.json](../styles/sunny-3d-avatar-campaign-style/style.json) · [Copy Prompt](copy-prompts/sunny-3d-avatar-campaign-style.md) · [16:9 preview](../styles/sunny-3d-avatar-campaign-style/preview-16x9.jpg) · [9:16 preview](../styles/sunny-3d-avatar-campaign-style/preview-9x16.jpg) · [Folder](../styles/sunny-3d-avatar-campaign-style)
+
+---
+
+### Y2K Mirror UI Scribble Collage Style
+
+<a href="../styles/y2k-mirror-ui-scribble-collage-style"><img src="../styles/y2k-mirror-ui-scribble-collage-style/preview-16x9.jpg" width="720" alt="Y2K Mirror UI Scribble Collage Style preview"></a>
+
+A gritty Y2K personal-screen collage style built from wide-angle flash photography, floating desktop-like interface fragments, electric-blue marker outlines, graffiti-like handwritten headline lettering, translucent panels, digital noise, rough cutouts, and improvised screen-diary texture.
+
+Files: [style.json](../styles/y2k-mirror-ui-scribble-collage-style/style.json) · [Copy Prompt](copy-prompts/y2k-mirror-ui-scribble-collage-style.md) · [16:9 preview](../styles/y2k-mirror-ui-scribble-collage-style/preview-16x9.jpg) · [9:16 preview](../styles/y2k-mirror-ui-scribble-collage-style/preview-9x16.jpg) · [Folder](../styles/y2k-mirror-ui-scribble-collage-style)
+
+---
 
 ### Neon Plush Gadget Pop 3D Style
 
