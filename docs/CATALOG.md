@@ -1,8 +1,28 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 44 styles. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 46 styles. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Electric Blue Silhouette Product Launch Style
+
+<a href="../styles/electric-blue-silhouette-product-launch-style"><img src="../styles/electric-blue-silhouette-product-launch-style/preview-16x9.jpg" width="720" alt="Electric Blue Silhouette Product Launch Style preview"></a>
+
+A sparse premium consumer-tech launch poster style built from black negative space, a centered product silhouette, electric-blue rim lighting, a glowing horizontal platform, soft reflection, giant cropped blue background typography, and clean white announcement copy.
+
+Files: [style.json](../styles/electric-blue-silhouette-product-launch-style/style.json) · [Copy Prompt](copy-prompts/electric-blue-silhouette-product-launch-style.md) · [16:9 preview](../styles/electric-blue-silhouette-product-launch-style/preview-16x9.jpg) · [9:16 preview](../styles/electric-blue-silhouette-product-launch-style/preview-9x16.jpg) · [Folder](../styles/electric-blue-silhouette-product-launch-style)
+
+---
+
+### Luxury Perspective Checkerboard Editorial
+
+<a href="../styles/luxury-perspective-checkerboard-editorial"><img src="../styles/luxury-perspective-checkerboard-editorial/preview-16x9.jpg" width="720" alt="Luxury Perspective Checkerboard Editorial preview"></a>
+
+A high-fashion editorial poster style with low-angle luxury photography, sharp red-and-white checkerboard perspective planes, generous white space, oversized custom script typography, restrained emerald or teal accents, and polished maison-like advertising restraint without copying any real brand mark.
+
+Files: [style.json](../styles/luxury-perspective-checkerboard-editorial/style.json) · [Copy Prompt](copy-prompts/luxury-perspective-checkerboard-editorial.md) · [16:9 preview](../styles/luxury-perspective-checkerboard-editorial/preview-16x9.jpg) · [9:16 preview](../styles/luxury-perspective-checkerboard-editorial/preview-9x16.jpg) · [Folder](../styles/luxury-perspective-checkerboard-editorial)
+
+---
 
 ### Sunny 3D Avatar Campaign Style
 

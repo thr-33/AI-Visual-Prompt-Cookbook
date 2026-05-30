@@ -16,10 +16,12 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Chromatic Fisheye Orbit Pop Poster Style | [Copy Prompt](chromatic-fisheye-orbit-pop-poster-style.md) | [style.json](../../styles/chromatic-fisheye-orbit-pop-poster-style/style.json) |
 | Clean Triptych Travel Vlog Thumbnail Style | [Copy Prompt](clean-triptych-travel-vlog-thumbnail-style.md) | [style.json](../../styles/clean-triptych-travel-vlog-thumbnail-style/style.json) |
 | Cozy Bedroom Doodle Companion Snapshot Style | [Copy Prompt](cozy-bedroom-doodle-companion-snapshot-style.md) | [style.json](../../styles/cozy-bedroom-doodle-companion-snapshot-style/style.json) |
+| Electric Blue Silhouette Product Launch Style | [Copy Prompt](electric-blue-silhouette-product-launch-style.md) | [style.json](../../styles/electric-blue-silhouette-product-launch-style/style.json) |
 | Folded Diamond Perspective Type Poster Style | [Copy Prompt](folded-diamond-perspective-type-poster-style.md) | [style.json](../../styles/folded-diamond-perspective-type-poster-style/style.json) |
 | Gothic Cat Doodle Photo Collage Style | [Copy Prompt](gothic-cat-doodle-photo-collage-style.md) | [style.json](../../styles/gothic-cat-doodle-photo-collage-style/style.json) |
 | Impact Burst Halftone Comic Poster Style | [Copy Prompt](impact-burst-halftone-comic-poster-style.md) | [style.json](../../styles/impact-burst-halftone-comic-poster-style/style.json) |
 | K-Pop Apocalypse Ransom Zine Style | [Copy Prompt](k-pop-apocalypse-ransom-zine-style.md) | [style.json](../../styles/k-pop-apocalypse-ransom-zine-style/style.json) |
+| Luxury Perspective Checkerboard Editorial | [Copy Prompt](luxury-perspective-checkerboard-editorial.md) | [style.json](../../styles/luxury-perspective-checkerboard-editorial/style.json) |
 | Metro Doodle Snapshot Diary | [Copy Prompt](metro-doodle-snapshot-diary-style.md) | [style.json](../../styles/metro-doodle-snapshot-diary-style/style.json) |
 | Mono Noir Type Portrait Poster Style | [Copy Prompt](mono-noir-type-portrait-poster-style.md) | [style.json](../../styles/mono-noir-type-portrait-poster-style/style.json) |
 | Mountain Trail Monster Doodle Poster Style | [Copy Prompt](mountain-trail-monster-doodle-poster-style.md) | [style.json](../../styles/mountain-trail-monster-doodle-poster-style/style.json) |
