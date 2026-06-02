@@ -26,6 +26,7 @@ Use them when you want a short copy-and-paste entry point; use `style.json` when
 | Metro Doodle Snapshot Diary | [Copy Prompt](metro-doodle-snapshot-diary-style.md) | [style.json](../../styles/metro-doodle-snapshot-diary-style/style.json) |
 | Mono Noir Type Portrait Poster Style | [Copy Prompt](mono-noir-type-portrait-poster-style.md) | [style.json](../../styles/mono-noir-type-portrait-poster-style/style.json) |
 | Mountain Trail Monster Doodle Poster Style | [Copy Prompt](mountain-trail-monster-doodle-poster-style.md) | [style.json](../../styles/mountain-trail-monster-doodle-poster-style/style.json) |
+| Multi-Color Beverage Splash Ad System Style | [Copy Prompt](multi-color-beverage-splash-ad-system-style.md) | [style.json](../../styles/multi-color-beverage-splash-ad-system-style/style.json) |
 | Naive Marker PSA Poster Style | [Copy Prompt](naive-marker-psa-poster-style.md) | [style.json](../../styles/naive-marker-psa-poster-style/style.json) |
 | Neon Doodle Gallery Snapshot | [Copy Prompt](neon-doodle-gallery-snapshot-style.md) | [style.json](../../styles/neon-doodle-gallery-snapshot-style/style.json) |
 | Neon Kinetic Typographic Poster | [Copy Prompt](neon-kinetic-typographic-poster-style.md) | [style.json](../../styles/neon-kinetic-typographic-poster-style/style.json) |

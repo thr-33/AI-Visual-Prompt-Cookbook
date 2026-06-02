@@ -1,8 +1,18 @@
 # Style Catalog — Full Details
 
-Complete descriptions and all file links for each of the 49 styles. For a visual gallery, see the [main README](../README.md#all-styles).
+Complete descriptions and all file links for each of the 50 styles. For a visual gallery, see the [main README](../README.md#all-styles).
 
 [← Back to README](../README.md)
+
+### Multi-Color Beverage Splash Ad System Style
+
+<a href="../styles/multi-color-beverage-splash-ad-system-style"><img src="../styles/multi-color-beverage-splash-ad-system-style/preview-16x9.jpg" width="720" alt="Multi-Color Beverage Splash Ad System Style preview"></a>
+
+A reusable beverage launch advertising system with four color-varied templates, built from giant white 3D typography, a diagonal hero drink pack, frozen liquid motion, dense launch-ad copy, and polished commercial product lighting.
+
+Files: [style.json](../styles/multi-color-beverage-splash-ad-system-style/style.json) · [Copy Prompt](copy-prompts/multi-color-beverage-splash-ad-system-style.md) · [16:9 preview](../styles/multi-color-beverage-splash-ad-system-style/preview-16x9.jpg) · [9:16 preview](../styles/multi-color-beverage-splash-ad-system-style/preview-9x16.jpg) · [Folder](../styles/multi-color-beverage-splash-ad-system-style)
+
+---
 
 ### Yellow Black Manga Food Zine Ad Style
 

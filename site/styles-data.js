@@ -1,5 +1,5 @@
 window.COOKBOOK_STYLES = {
-  "styleCount": 49,
+  "styleCount": 50,
   "categories": [
     "Editorial + Minimal",
     "Photo + Doodle",
@@ -9,6 +9,46 @@ window.COOKBOOK_STYLES = {
     "Zine + Collage"
   ],
   "styles": [
+    {
+      "name": "Multi-Color Beverage Splash Ad System Style",
+      "slug": "multi-color-beverage-splash-ad-system-style",
+      "category": "Product + Campaign",
+      "description": "Color-varied beverage launch ads with giant white 3D type and frozen splash motion.",
+      "summary": "A reusable beverage launch advertising system with four color-varied templates, built from giant white 3D typography, a diagonal hero drink pack, frozen liquid motion, dense launch-ad copy, and polished commercial product lighting.",
+      "preview16": "../styles/multi-color-beverage-splash-ad-system-style/preview-16x9.jpg",
+      "preview9": "../styles/multi-color-beverage-splash-ad-system-style/preview-9x16.jpg",
+      "styleJson": "../styles/multi-color-beverage-splash-ad-system-style/style.json",
+      "copyPromptDoc": "../docs/copy-prompts/multi-color-beverage-splash-ad-system-style.md",
+      "folder": "../styles/multi-color-beverage-splash-ad-system-style/",
+      "anchors": [
+        "Each case uses one strong drink-category color system rather than a generic rainbow palette.",
+        "Large white extruded block letters remain the main background architecture.",
+        "The drink pack is the single close-up hero object, angled diagonally and cropped with impact.",
+        "Splash, foam, ice, bubbles, or condensation are frozen in high-speed product-ad lighting.",
+        "Typography is bold, condensed, italic, mostly white, and stacked into tight ad-copy blocks.",
+        "The image feels like beverage launch material rather than a lifestyle photo or generic product render."
+      ],
+      "variables": [
+        "SUBJECT",
+        "SUBJECT_ACTION",
+        "PRODUCT_OR_PROP",
+        "LOCATION",
+        "BACKGROUND_ELEMENTS",
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "ACCENT_SYMBOL",
+        "WARDROBE_STYLE",
+        "STYLE_FIDELITY_ANCHORS",
+        "SOURCE_CONTENT_TO_AVOID",
+        "ASPECT_RATIO",
+        "PRODUCT_CATEGORY",
+        "DELIVERY_FORMAT",
+        "PRIMARY_COLOR",
+        "SECONDARY_COLOR"
+      ],
+      "exampleName": "lemon-tea-store-poster",
+      "copyPrompt": "Use the \"Multi-Color Beverage Splash Ad System Style\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: a fictional bottled low-sugar lemon tea\nSubject action: bursting diagonally through tea splash, lemon mist, and ice shards\nProduct or prop: a clear bottle with amber tea liquid, lemon-yellow label bands, and a tiny green freshness seal\nLocation: a clean retail poster studio space\nBackground elements: giant white extruded letters spelling ZEST as abstract 3D blocks, amber side shadows, lemon slices as splash accents\nMain text: LEMON ZEST\nSecondary text: low sugar / fresh tea / ice cold\nAccent symbol: tiny green leaf seal\nWardrobe style: no people, bright bottled-tea product styling\n\nStyle direction:\nA reusable beverage launch advertising system with four color-varied templates, built from giant\nwhite 3D typography, a diagonal hero drink pack, frozen liquid motion, dense launch-ad copy, and\npolished commercial product lighting.\n\nKeep visible:\n- Each case uses one strong drink-category color system rather than a generic rainbow palette.\n- Large white extruded block letters remain the main background architecture.\n- The drink pack is the single close-up hero object, angled diagonally and cropped with impact.\n- Splash, foam, ice, bubbles, or condensation are frozen in high-speed product-ad lighting.\n- Typography is bold, condensed, italic, mostly white, and stacked into tight ad-copy blocks.\n\nAvoid:\nSprite, Coca-Cola, real brand logo, copied Korean text, copied Z E R O layout, exact source\ncomposition, original green soda can, 355ml label, existing beverage trademark, watermark, QR\ncode, platform UI, creator signature, legal microcopy, flat vector art, scrapbook collage, manga\npanel, lifestyle photo, ordinary packshot, messy supermarket aisle, many small products,\nunreadable tiny packaging claims, low-resolution render\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene."
+    },
     {
       "name": "Yellow Black Manga Food Zine Ad Style",
       "slug": "yellow-black-manga-food-zine-ad-style",
